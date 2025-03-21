@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .flow {
+            background-color: white;
+            height: 45px;
+        }
+
+        .basic {
+            background-color: rgb(245, 217, 222);
+            height: 54px;
+            position: relative;
+            margin-top: 107px;
+        }
+
+        .sec {
+            color: rgb(161, 25, 111) !important;
+            position: absolute;
+            margin-top: 9px;
+            margin-left: 546px;
+            font-style: italic;
+        }
+
+        .sct-header {
+            color: black;
+            margin-left: 25px;
+            margin-bottom: -11px;
+            font-style: italic;
+        }
+
+        .so {
+            margin-top: 18px;
+            margin-left: 303px;
+        }
+
+        .so1 {
+            margin-top: 18px;
+            margin-left: 241px;
+        }
+
+        .so2 {
+            margin-top: 18px;
+            margin-left: 181px;
+        }
+
+        .nav-custom-cl {
+            float: right;
+            margin-top: -4px;
+            margin-bottom: 80px;
+
+        }
+
+        .nav-custom-cl ul li {
+            margin-left: 36px;
+
+        }
+
+        .nav-custom-cl ul a {
+            font-size: 14px;
+            color: black !important;
+
+        }
+
+        .flw img {
+
+            position: absolute;
+            height: 470px;
+            width: 1260px;
+        }
+
+        .menu {
+            position: relative;
+        }
+
+        .can {
+            margin-left: 30px;
+            margin-top: 115px;
+            font-style: italic;
+            color: black;
+        }
+
+        .can1 {
+            margin-left: 30px;
+            font-style: italic;
+            color: rgb(161, 25, 111);
+            margin-top: 10px;
+        }
+
+        .can2 {
+            margin-left: 30px;
+            font-style: italic;
+            color: black;
+            margin-top: 10px;
+        }
+
+        .key button {
+            border: 2px solid white;
+            border-radius: 15px;
+            color: white;
+            background-color: black;
+            margin: 0 auto;
+            margin-top: 10px;
+            width: 140px;
+            margin-left: 30px;
+            font-style: italic;
+        }
+
+        .now img {
+            height: 330px;
+            width: 514px;
+            border: 2px solid white;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .try {
+            margin-top: 30px;
+        }
+
+        .try1 {
+            font-style: italic;
+            color: black;
+        }
+
+        .try2 {
+            font-style: italic;
+            color: black;
+            margin-top: 3px;
+        }
+
+        .try3 {
+            font-style: italic;
+            color: black;
+            margin-top: 3px;
+        }
+
+        .click button {
+            border: 2px solid white;
+            border-radius: 15px;
+            color: white;
+            background-color: black;
+            margin: 0 auto;
+            margin-top: 5px;
+            width: 140px;
+            margin-left: 5px;
+            font-style: italic;
+        }
+
+        .self {
+            margin-top: 8px;
+            border: 2px solid whitesmoke;
+            background-color: whitesmoke;
+        }
+
+        .bro1 {
+            border: 2px solid rgb(221, 219, 216);
+            background-color: white;
+            height: 78px;
+            width: 226px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 40px;
+            border-radius: 8px;
+        }
+
+        .bro2 {
+            border: 2px solid rgb(221, 219, 216);
+            background-color: white;
+            height: 78px;
+            width: 226px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 10px;
+            border-radius: 8px;
+        }
+
+        .bro3 {
+            border: 2px solid rgb(221, 219, 216);
+            background-color: white;
+            height: 78px;
+            width: 226px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 10px;
+            border-radius: 8px;
+        }
+
+        .bro4 {
+            border: 2px solid rgb(221, 219, 216);
+            background-color: white;
+            height: 78px;
+            width: 226px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 10px;
+            border-radius: 8px;
+        }
+
+        .kill1 {
+            font-size: 19px;
+            margin-top: 8px;
+            margin-left: 5px;
+        }
+
+        .kill2 {
+            font-size: 19px;
+            margin-top: 8px;
+            margin-left: 5px;
+        }
+
+        .kill3 {
+            font-size: 19px;
+            margin-top: 8px;
+            margin-left: 5px;
+        }
+
+        .kill4 {
+            font-size: 19px;
+            margin-top: 8px;
+            margin-left: 5px;
+        }
+
+        .do {
+            font-style: italic;
+            margin-top: -16px;
+            margin-left: 55px;
+        }
+
+        .do1 {
+            font-style: italic;
+            margin-top: 2px;
+            margin-left: 52px;
+        }
+
+        .bro1:hover {
+            background-color: rgb(245, 217, 222);
+        }
+
+        .bro2:hover {
+            background-color: rgb(245, 217, 222);
+        }
+
+        .bro3:hover {
+            background-color: rgb(245, 217, 222);
+        }
+
+        .bro4:hover {
+            background-color: rgb(245, 217, 222);
+        }
+
+        .bring {
+            background-color: rgb(245, 217, 222);
+            height: 54px;
+            position: relative;
+            margin-top: 3px;
+        }
+
+        .cross {
+            color: rgb(161, 25, 111) !important;
+            position: absolute;
+            margin-top: 9px;
+            margin-left: 546px;
+            font-style: italic;
+        }
+
+        .shift {
+
+            border: 2px solid whitesmoke;
+            background-color: whitesmoke;
+
+        }
+
+        .safe1 {
+            border: 2px solid rgb(221, 219, 216);
+            background-color: white;
+            height: 216px;
+            width: 167px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 135px;
+            border-radius: 8px;
+        }
+
+        .safe2 {
+            border: 2px solid rgb(221, 219, 216);
+            background-color: white;
+            height: 217px;
+            width: 168px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 116px;
+            border-radius: 8px;
+        }
+
+        .safe3 {
+            border: 2px solid rgb(221, 219, 216);
+            background-color: white;
+            height: 217px;
+            width: 167px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 86px;
+            border-radius: 8px;
+        }
+
+        .view {
+            font-style: italic;
+            margin-top: 3px;
+            margin-left: 55px;
+        }
+
+        .view1 {
+            font-style: italic;
+            margin-top: 2px;
+            margin-left: 52px;
+        }
+
+        .save img {
+            height: 156px;
+            width: 163px;
+        }
+
+        .brass {
+            background-color: rgb(245, 217, 222);
+            height: 54px;
+            position: relative;
+            margin-top: 3px;
+        }
+
+        .call {
+            color: rgb(161, 25, 111) !important;
+            position: absolute;
+            margin-top: 9px;
+            margin-left: 506px;
+            font-style: italic;
+        }
+
+        .mix {
+
+            border: 2px solid whitesmoke;
+            background-color: whitesmoke;
+
+        }
+
+        .solo1 {
+            border: 2px solid rgb(221, 219, 216);
+            background-color: white;
+            height: 248px;
+            width: 223px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 135px;
+            border-radius: 8px;
+        }
+
+        .solo2 {
+            border: 2px solid rgb(221, 219, 216);
+            background-color: white;
+            height: 248px;
+            width: 223px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 116px;
+            border-radius: 8px;
+        }
+
+        .solo3 {
+            border: 2px solid rgb(221, 219, 216);
+            background-color: white;
+            height: 248px;
+            width: 223px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 86px;
+            border-radius: 8px;
+        }
+
+        .new {
+            font-style: italic;
+            margin-top: 3px;
+            margin-left: 55px;
+        }
+
+        .new1 {
+            font-style: italic;
+            margin-top: 2px;
+            margin-left: 52px;
+        }
+
+        .shit img {
+            height: 34px;
+            width: 163px;
+            margin-left: 16px;
+        }
+
+        .sis1 {
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+
+        .sis2 {
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+
+        .sis3 {
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+
+        .home img {
+            height: 337px;
+            width: 539px;
+          
+            margin-left: 60px;
+
+        }
+
+        .press button {
+
+            border: 2px solid white;
+            border-radius: 15px;
+            color: white;
+            background-color: black;
+            margin: 0 auto;
+            margin-top: 5px;
+            width: 140px;
+            margin-left: 5px;
+            font-style: italic;
+        }
+
+        .mark {
+            margin-top: 10px;
+            border: 2px solid rgb(230, 216, 216);
+            border-radius: 10px;
+            font-style: italic;
+           background-color: whitesmoke;
+            margin-left: 60px;
+            height: 297px;
+            width: 309px;
+            color: rgb(161, 25, 111) ;
+        }
+.how{
+    width: 300px;
+    
+    
+}
+.rock {
+            background-color: rgb(245, 217, 222);
+            height: 54px;
+            position: relative;
+            margin-top: 3px;
+            margin-bottom: 10px;
+        }
+
+        .bug {
+            color: rgb(161, 25, 111) !important;
+            position: absolute;
+            margin-top: 9px;
+            margin-left: 506px;
+            font-style: italic;
+        }
+        .grand{
+            color: rgb(161, 25, 111) ;
+            margin-left: 50px;
+            font-style: italic;
+        }
+       .footer-sct{
+        border: 2px solid whitesmoke;
+        background-color: whitesmoke;
+        height: 203px;
+        width: 1156px;
+        border-radius: 10px;
+        padding-top: 6px;
+       }
+    
+
+.his-sct ul li{
+    list-style: none!important;
+    color:black ;
+    margin-left: 21px;
+    margin-top: 10px;
+}
+
+    
+
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid  flow fixed-top">
+        <div class=" row header-sct">
+            <div class="col-sm-1">
+
+                <h2 class="sct-header">Flower</h2>
+            </div>
+
+
+            <div class="col-sm-6">
+                <nav class="navbar navbar-expand-sm navbar-light nav-custom-cl">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Review</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contact</a>
+                        </li>
+                </nav>
+            </div>
+            <div class="col-sm-1">
+                <i class="fa-solid fa-heart so"></i>
+            </div>
+            <div class="col-sm-1">
+                <i class="fa-solid fa-cart-shopping so1"></i>
+            </div>
+            <div class="col-sm-1">
+                <i class="fa-solid fa-address-book so2"></i>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 mt-1">
+                <div class="flw">
+                    <img src="photo/flower.jpg">
+                </div>
+                <div class="menu">
+                    <h1 class="can">Fresh Flowers</h1>
+                    <h3 class="can1">Natural & Beautiful Flowers</h3>
+
+                    <p class="can2">
+                        Are you in search of a dedicated and skilled team to bring your projects to life?<br> Look no
+                        further!MNF technologies is your partner in<br> turning ideas into reality.With a proven track
+                        record of excellence and a passion for innovation.
+
+                    </p>
+                    <div class="key">
+                        <button type="submit" class="btn ">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="basic">
+                    <h2 class="sec">About Us</h2>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <div class="row">
+
+            <div class="col-sm-6">
+                <div class="now">
+                    <img src="photo/shop1.jpeg">
+
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="try">
+                    <h2 class="try1">Why Choose Us</h2>
+                    <p class="try2">
+                        Are you in search of a dedicated and skilled team to bring your projects to life?<br> Look no
+                        further!MNF technologies is your partner in<br> turning ideas into reality.With a proven track
+                        record of excellence and a passion for innovation.
+
+                    </p>
+
+                    <p class="try3">
+                        Are you in search of a dedicated and skilled team to bring your projects to life?<br> Look no
+                        further!MNF technologies is your partner in<br> turning ideas into reality.With a proven track
+                        record of excellence and a passion for innovation.
+
+                    </p>
+                    <div class="click">
+                        <button type="submit" class="btn ">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid self">
+        <div class="row ">
+            <div class="col-sm-3 ">
+                <div class="bro1">
+                    <i class="fa-solid fa-cart-shopping kill1">
+                    </i>
+                    <h6 class="do"> Free shipping <h6 class="do1">on All orders</h6>
+                    </h6>
+
+                </div>
+            </div>
+
+            <div class="col-sm-3 ">
+                <div class="bro2">
+                    <i class="fa-solid fa-sack-dollar kill2"></i>
+                    <h6 class="do">10 Days Returns</h6>
+                    <h6 class="do1">Moneyback Guarantee</h6>
+                </div>
+            </div>
+            <div class="col-sm-3 ">
+                <div class="bro3">
+                    <i class="fa-solid fa-gift kill3"></i>
+                    <h6 class="do">offer & Gift</h6>
+                    <h6 class="do1">on All orders</h6>
+                </div>
+            </div>
+            <div class="col-sm-3 ">
+                <div class="bro4">
+
+                    <i class="fa-solid fa-money-bill kill4"></i>
+                    <h6 class="do">Secure Payment</h6>
+                    <h6 class="do1">Protected By Paypal</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="bring">
+                    <h2 class="cross">Latest Products</h2>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid shift">
+        <div class="row ">
+            <div class="col-sm-4 ">
+                <div class="safe1">
+                    <div class="save">
+                        <img src="photo/n9.jpeg">
+                    </div>
+                    <h6 class="view"> Flower Pot<h6 class="view1">$15.99</h6>
+                    </h6>
+
+                </div>
+            </div>
+
+            <div class="col-sm-4 ">
+                <div class="safe2">
+                    <div class="save">
+                        <img src="photo/n8.jpeg">
+                    </div>
+                    <h6 class="view"> Flower Pot<h6 class="view1">$15.99</h6>
+                    </h6>
+
+                </div>
+            </div>
+            <div class="col-sm-4 ">
+                <div class="safe3">
+                    <div class="save">
+                        <img src="photo/n7.jpeg">
+                    </div>
+                    <h6 class="view"> Flower Pot<h6 class="view1">$15.99</h6>
+                    </h6>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid shift">
+        <div class="row ">
+            <div class="col-sm-4 ">
+                <div class="safe1">
+                    <div class="save">
+                        <img src="photo/n6.jpeg">
+                    </div>
+                    <h6 class="view"> Flower Pot<h6 class="view1">$15.99</h6>
+                    </h6>
+
+                </div>
+            </div>
+
+            <div class="col-sm-4 ">
+                <div class="safe2">
+                    <div class="save">
+                        <img src="photo/n5.jpeg">
+                    </div>
+                    <h6 class="view"> Flower Pot<h6 class="view1">$15.99</h6>
+                    </h6>
+
+                </div>
+            </div>
+            <div class="col-sm-4 ">
+                <div class="safe3">
+                    <div class="save">
+                        <img src="photo/n4.jpeg">
+                    </div>
+                    <h6 class="view"> Flower Pot<h6 class="view1">$15.99</h6>
+                    </h6>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid shift">
+        <div class="row ">
+            <div class="col-sm-4 ">
+                <div class="safe1">
+                    <div class="save">
+                        <img src="photo/n3.jpeg">
+                    </div>
+                    <h6 class="view"> Flower Pot<h6 class="view1">$15.99</h6>
+                    </h6>
+
+                </div>
+            </div>
+
+            <div class="col-sm-4 ">
+                <div class="safe2">
+                    <div class="save">
+                        <img src="photo/n2.jpeg">
+                    </div>
+                    <h6 class="view"> Flower Pot<h6 class="view1">$15.99</h6>
+                    </h6>
+
+                </div>
+            </div>
+            <div class="col-sm-4 ">
+                <div class="safe3">
+                    <div class="save">
+                        <img src="photo/n1.jpeg">
+                    </div>
+                    <h6 class="view"> Flower Pot<h6 class="view1">$15.99</h6>
+                    </h6>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="brass">
+                    <h2 class="call">Customer's Review</h2>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mix">
+        <div class="row ">
+            <div class="col-sm-4 ">
+                <div class="solo1">
+                    <div class="shit">
+                        <img src="photo/star.jpeg">
+                    </div>
+                    <p class="sis1">
+                        Are you in search of a dedicated and skilled team to bring your projects to life?<br> Look no
+                        further!MNF technologies is your partner.
+
+                    </p>
+                    <h6 class="new"> Jhon Doe<h6 class="new1">Happy Customer</h6>
+                    </h6>
+
+                </div>
+            </div>
+
+            <div class="col-sm-4 ">
+                <div class="solo2">
+                    <div class="shit">
+                        <img src="photo/star.jpeg">
+                    </div>
+                    <p class="sis2">
+                        Are you in search of a dedicated and skilled team to bring your projects to life?<br> Look no
+                        further!MNF technologies is your partner.
+
+                    </p>
+                    <h6 class="new">Jhon Doe <h6 class="new1">Happy Customer</h6>
+                    </h6>
+
+                </div>
+            </div>
+            <div class="col-sm-4 ">
+                <div class="solo3">
+                    <div class="shit">
+                        <img src="photo/star.jpeg">
+                    </div>
+                    <p class="sis3">
+                        Are you in search of a dedicated and skilled team to bring your projects to life?<br> Look no
+                        further!MNF technologies is your partner .
+
+                    </p>
+                    <h6 class="new"> Jhon Doe<h6 class="new1">Happy Customer</h6>
+                    </h6>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="rock">
+                    <h2 class="bug">Contact Us</h2>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <div class="row">
+
+            <div class="col-sm-6">
+                <div class="mark">
+
+                    <label for="name">Name:</label>
+                    <input type="text"  class="how"id="name" placeholder="Enter your name" name="name">
+                    <label for="email">Email:</label><br>
+                    <input type="text"  class="how"id="email" placeholder="Enter your email" name="email"><br>
+                    <label for="number">Number:</label><br>
+                    <input type="text" class="how" id="number" placeholder="Enter your number" name="number"><br>
+                    <label for="message">Message:</label><br>
+                    <input type="text"  class="how"id="message" placeholder="Enter your message" name="message"><br><br>
+                    <div class="press">
+                        <button type="submit" class="btn ">Send message</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="home">
+                    <img src="photo/garden1.webp">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3 ">
+        <div class="row footer-sct">
+            <div class="col-sm-3">
+                <h6 class="grand">Quick Links</h6>
+               
+    <div class="his-sct">
+    <ul>   
+    <li class="gap">Home</li>
+    <li class="gap"> Abouts</li>
+    <li class="gap"> Products </li>
+    <li class="gap">Review </a></li>
+    <li class="gap">Contact </li>
+    </ul>
+    </div>
+</div>
+<div class="col-sm-3">
+    <h6 class="grand">Extra Links</h6>
+    <div class="his-sct">
+    <ul>
+    <li class="gap">My Account </li>
+    <li class="gap"> My Order </li>
+    <li class="gap">My Favourite </li>
+    </ul>
+    </div>
+</div>
+<div class="col-sm-3">
+    <h6 class="grand">Locations</h6>
+    <div class="his-sct">
+    <ul>
+    <li class="gap">India</li>
+    <li class="gap">USA </li>
+    <li class="gap">Japan </li>
+    <li class="gap">France </li>
+    </ul>
+    </div>
+</div>
+    <div class="col-sm-3">
+        <h6 class="grand">Contact Info</h6>
+    <div class="his-sct">
+    <ul>
+    <li class="gap">+123-456-7890 </li>
+    <li class="gap">Example@Gmail.com</li>
+    <li class="gap">Mumbai,India-400104 </li>
+    </ul>
+    </div>
+
+</div>
+</div>
+</div>
+</body>
+
+</html>
