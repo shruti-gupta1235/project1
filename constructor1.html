@@ -1,0 +1,77 @@
+<!-- <!DOCTYPE html>
+<html>
+<body>
+ <p></p>
+</body>
+<script>
+
+    
+     class Person {
+        constructor(name, age,address){
+            this.name = name;
+            this.age = age;
+            this.address = address;
+        }
+
+        greet(){
+            return `Hello My name is ${this.name} , age is ${this.age} and address is ${this.address}<br>`;
+        }
+     }
+
+    //  let personObj = new Person("jhon", 40,"America");
+    //  document.write(personObj.greet());
+
+     class Employee extends Person{
+        constructor(name, age, job){
+            super(name, age);
+            this.job = job;
+        }
+
+        work(){
+            return `My name is ${this.name} and I am working on ${this.job} <br>`;
+        }
+     }
+
+     let childObj = new Employee("Mikale", 40, "Dentist");
+      document.write(childObj.greet());
+      document.write(childObj.work());
+</script>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+</head>
+<body>
+  <script>
+    class student{
+        constructor(name,age,address){
+            this.name=name;
+            this.age=age;
+            this.address=address;
+        }
+ 
+    greet(){
+        return`${this.name}${  this.age}${ this.address}`;
+    }
+}
+let obj=new student("shruti",18,"durgapur")
+document.write(obj.greet());
+class Employee extends student{
+        constructor(name,age,address,job){
+            super(name,age,address);
+            this.job=job;
+           
+        }
+ 
+    work(){
+        return`${this.name}${  this.age}${ this.address}${  this.job}`;
+    }
+}
+let obj2=new Employee("shruti",18,"durgapur","engineer");
+document.write(obj2.greet());
+document.write(obj2.work());
+  </script>  
+</body>
+</html>

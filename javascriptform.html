@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<script>
+    function testfuncbasic() {
+        document.getElementById("main").innerHTML = " javascript Form";
+        document.getElementById("main").style.color = 'white';
+        document.getElementById("main").style.fontSize = '25px';
+        document.getElementById("main").style.paddingLeft = '130px';
+        document.getElementById("main").style.fontStyle = 'italic';
+        document.getElementById("main").style.position = 'relative';
+        document.getElementById("try1").style.position = 'absolute';
+        document.getElementById("try1").style.backgroundColor = 'rgb(38, 173, 235)';
+        document.getElementById("try1").style.color = 'white';
+        document.getElementById("try1").style.width = '25%';
+        document.getElementById("try1").style.border = '2px solid white';
+        document.getElementById("try1").style.height = '190px';
+        document.getElementById("try1").style.paddingTop = '60px';
+        document.getElementById("try1").style.paddingLeft = '110px';
+        document.getElementById("try1").style.fontStyle = 'italic';
+    }
+</script>
+
+<body>
+    <div Id="try1">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" placeholder="Enter your name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email"placeholder="Enter your email"  name="email"><br>
+        <label for="Password">Password:</label><br>
+        <input type="text" id="password"placeholder="Enter your password"  name="password"><br><br>
+        <input type="Submit" value="Submit">
+    </div>
+
+
+    <div Id="main">js</div>
+    <div Id="try1">Hello</div>
+    <button onclick='testfuncbasic()'>Click</button>
+
+</body>
+
+</html>

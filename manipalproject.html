@@ -1,0 +1,1775 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        .sct-header img {
+            float: left;
+            margin-top: -26px;
+            margin-right: 15px;
+            height: 88px;
+            width: 150px;
+        }
+
+        .nav-custom-cl {
+            float: left;
+            margin-top: 8px;
+            margin-bottom: 80px;
+        }
+        .nav-custom-cl ul li {
+            margin-right: 7px;
+        }
+        .nav-custom-cl ul a {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .key button {
+            margin: 0 auto !important;
+            display: block;
+            color: white;
+            background-color: rgb(233, 0, 0);
+            border-radius: 10px;
+            margin-right: 8px;
+            margin-top: 15px !important;
+            margin-bottom: 5px;
+        }
+
+        .carousel-item {
+            position: relative;
+        }
+
+        .self {
+            position: absolute;
+            top: 90px;
+        }
+
+        .do button {
+            margin-left: 30px !important;
+            margin-top: 20px !important;
+            background-color: white;
+            margin: 0 auto;
+            display: block;
+            color: black;
+
+        }
+
+        .say button {
+            margin-left: 30px !important;
+            margin-top: 70px !important;
+            background-color: white;
+            margin: 0 auto;
+            display: block;
+            color: black;
+
+        }
+
+        .no {
+            height: 62px;
+            background-color: white;
+
+        }
+
+        .head {
+
+            margin-left: 30px !important;
+            color: white;
+        }
+
+        .head1 {
+
+            margin-left: 30px !important;
+            color: white;
+            margin-top: -19px;
+        }
+
+        .para {
+
+            margin-left: 30px !important;
+            color: white;
+        }
+
+        .so {
+            margin-top: 40px;
+            height: 150px;
+            background-color: whitesmoke;
+            border: 2px solid whitesmoke;
+            border-radius: 20px;
+        }
+
+        .sct1 {
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+
+        .press {
+            border: 2px solid whitesmoke;
+            border-radius: 4px;
+            height: 114px;
+            width: 215px;
+            background-color: white;
+        }
+
+        .press1 {
+            border: 2px solid whitesmoke !important;
+            border-radius: 4px;
+            height: 114px;
+            width: 215px;
+            background-color: white;
+        }
+
+        .press2 {
+            border: 2px solid whitesmoke;
+            border-radius: 4px;
+            height: 114px;
+            width: 186px;
+            background-color: white;
+        }
+
+        .press img {
+            height: 102px;
+            width: 203px;
+            padding-left: 5px;
+        }
+
+        .press1 img {
+            height: 105px;
+            width: 203px;
+        }
+
+        .press2 img {
+            height: 109px;
+            width: 169px;
+        }
+
+        .box {
+            margin-top: 47px;
+        }
+
+        .Mahe {
+            border: 2px solid rgb(7, 7, 79);
+            border-radius: 8px;
+            color: white;
+            width: 215px;
+            background-color: rgb(7, 7, 79);
+            text-align: center;
+            height: 35px;
+            padding-top: 4px;
+        }
+
+        .muj {
+            border: 2px solid rgb(151, 110, 33);
+            border-radius: 8px;
+            color: white;
+            width: 215px;
+            background-color: rgb(151, 110, 33);
+            text-align: center;
+            height: 35px;
+            padding-top: 4px;
+        }
+
+        .smu {
+            border: 2px solid rgb(14, 14, 196);
+            border-radius: 8px;
+            color: white;
+            width: 186px;
+            background-color: rgb(14, 14, 196);
+            text-align: center;
+            height: 35px;
+            padding-top: 4px;
+        }
+
+        .for {
+            margin-bottom: 80px;
+
+        }
+
+        .means {
+            margin-top: 20px;
+            color: black;
+            float: left;
+            font-family: italic;
+        }
+
+
+        .shift {
+            margin-top: 30px;
+            text-align: center;
+            margin-bottom: 60px;
+            font-family: italic;
+        }
+
+        .insert {
+            text-decoration: underline;
+        }
+
+        .insert:hover {
+            color: red;
+        }
+
+        .part {
+            margin-top: 70px;
+            border-radius: 20px;
+        }
+
+        .block {
+            margin-left: 20px;
+        }
+
+        .block1 {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .block2 {
+            margin-top: 5px;
+            text-align: center;
+        }
+
+        .home button {
+            margin-top: 20px;
+            background-color: #e78b8b;
+            margin-left: 503px;
+            border-radius: 10px;
+        }
+
+        .lock {
+            height: 90px;
+        }
+
+        .role {
+            margin-bottom: 40px;
+            margin-left: 30px;
+        }
+
+        .use {
+            border: 2px solid whitesmoke;
+            border-radius: 10px;
+            height: 345px;
+            width: 225px;
+            background-color: white;
+            padding-left: 10px;
+        }
+
+        .use1 {
+            border: 2px solid whitesmoke !important;
+            border-radius: 10px;
+            height: 347px;
+            width: 256px;
+            background-color: white;
+            padding-left: 10px;
+        }
+
+        .use2 {
+            border: 2px solid whitesmoke;
+            border-radius: 10px;
+            height: 351px;
+            width: 240px;
+            background-color: white;
+            padding-left: 10px;
+        }
+
+        .use3 {
+            border: 2px solid whitesmoke;
+            border-radius: 10px;
+            height: 350px;
+            width: 238px;
+            background-color: white;
+            padding-left: 10px;
+        }
+
+        .use img {
+            height: 102px;
+            width: 200px;
+
+        }
+
+        .use1 img {
+            height: 105px;
+            width: 234px;
+        }
+
+        .use2 img {
+            height: 109px;
+            width: 216px;
+        }
+
+        .use3 img {
+            height: 109px;
+            width: 214px;
+        }
+
+        .skill {
+            border: 2px solid whitesmoke;
+            border-radius: 4px;
+            margin-top: 5px;
+            color: rgb(132, 88, 8);
+            text-align: center;
+            background-color: rgb(235, 191, 109);
+            padding-left: 9px;
+        }
+
+        .skill1 {
+            padding-left: 9px;
+            padding-top: 18px;
+        }
+
+        .skill2 {
+            padding-left: 9px;
+            padding-top: 18px;
+            margin-right: 10px;
+        }
+
+        .select {
+            margin-top: 5px;
+        }
+
+        .select1 {
+            text-decoration: underline;
+        }
+
+        .select1:hover {
+            color: rgb(229, 126, 126);
+        }
+
+        .use:hover {
+            background-color: whitesmoke;
+        }
+
+        .use1:hover {
+            background-color: whitesmoke;
+        }
+
+        .use2:hover {
+            background-color: whitesmoke;
+        }
+
+        .use3:hover {
+            background-color: whitesmoke;
+        }
+
+        .exit {
+            font-size: 30px;
+            margin-left: 239px;
+            margin-top: 35px;
+        }
+
+        .list-group-item {
+            width: 400px;
+        }
+
+        .back {
+            margin-top: 60px;
+            margin-bottom: 40px;
+        }
+
+        .list-group-item:hover {
+            background-color: whitesmoke;
+        }
+
+        .next {
+            margin-right: 12px;
+        }
+
+        .space {
+            border: 2px solid whitesmoke;
+            border-radius: 20px;
+            height: 250px;
+            width: 686px;
+            background-color: whitesmoke;
+            padding-left: 5px;
+        }
+
+        .space img {
+            height: 163px;
+            width: 680px;
+            border-radius: 20px;
+        }
+
+        .switch {
+            display: block;
+            margin: 0 auto;
+            background-color: black;
+            color: aliceblue;
+            border-radius: 10px;
+            margin-right: 54px;
+            margin-top: -27px;
+        }
+
+        .know {
+            margin-top: 25px;
+        }
+
+        .know1 {
+            border: 2px solid whitesmoke;
+            border-radius: 3px;
+            height: 70px;
+            width: 400px;
+            background-color: whitesmoke;
+            margin-top: 25px;
+        }
+
+        .space {
+            position: relative;
+        }
+
+        .online {
+            position: absolute;
+            top: 120px;
+            color: white;
+            margin-left: 10px;
+        }
+
+        .back {
+            margin-bottom: 80px;
+        }
+
+        .gap {
+            border: 2px solid black;
+            border-radius: 2px;
+            background-color: black;
+            height: 225px;
+        }
+
+        .check {
+            margin-top: 50px;
+            color: white;
+            margin-left: 80px;
+            font-family: italic;
+        }
+
+        .course {
+            margin-top: 10px;
+            color: white;
+            margin-left: 80px;
+        }
+
+        .search {
+            display: block !important;
+            margin: 0 auto;
+            border: 2px solid white;
+            border-radius: 12px;
+            background-color: white;
+            color: black;
+            margin-top: 50px;
+            margin-left: 80px;
+            margin-bottom: 20px;
+        }
+
+        .keep {
+            border: 2px solid black;
+            border-radius: 2px;
+            background-color: black;
+            height: 550px;
+            margin-bottom: 40px;
+        }
+
+        .cage {
+            border: 2px solid white;
+            border-radius: 20px;
+            margin-left: 104px;
+            width: 956px;
+            height: 375px;
+            background-color: white;
+            margin-top: 70px;
+
+        }
+
+        .capgemini img {
+            height: 86px;
+            width: 155px;
+            border-radius: 10px;
+            padding-left: 51px;
+        }
+
+        .infosys img {
+            height: 86px;
+            width: 164px;
+            border-radius: 10px;
+            padding-left: 51px;
+        }
+
+        .nielsen img {
+            height: 120px;
+            width: 143px;
+            border-radius: 10px;
+            padding-left: 51px;
+        }
+
+        .tata img {
+            height: 80px;
+            width: 155px;
+            border-radius: 10px;
+            padding-left: 51px;
+        }
+
+        .hp img {
+            height: 66px;
+            width: 64px;
+            border-radius: 10px;
+            padding-top: 20px;
+
+        }
+
+        .wipro img {
+            height: 106px;
+            width: 63px;
+            border-radius: 10px;
+            padding-top: 20px;
+        }
+
+        .genpact img {
+            height: 108px;
+            width: 98px;
+            border-radius: 10px;
+            padding-top: 20px;
+        }
+
+        .tredence img {
+            height: 86px;
+            width: 99px;
+            border-radius: 10px;
+            padding-top: 20px;
+        }
+
+        .accenture img {
+
+            height: 99px;
+            width: 73px;
+            border-radius: 10px;
+
+        }
+
+        .ibm img {
+            height: 74px;
+            width: 77px;
+            border-radius: 10px;
+
+        }
+
+        .siemens img {
+            height: 112px;
+            width: 73px;
+            border-radius: 10px;
+            padding-top: 20px;
+        }
+
+        .quess img {
+            height: 68px;
+            width: 75px;
+            border-radius: 10px;
+            padding-top: 20px;
+        }
+
+        .deloitte img {
+            height: 84px;
+            width: 102px;
+            border-radius: 10px;
+            padding-top: 20px;
+        }
+
+        .mygate img {
+            height: 90px;
+            width: 100px;
+            border-radius: 10px;
+        }
+
+        .kpmg img {
+            height: 126px;
+            width: 98px;
+            border-radius: 10px;
+        }
+
+        .girnarsoft img {
+            height: 53px;
+            width: 112px;
+            border-radius: 10px;
+        }
+
+        .ey img {
+            height: 78px;
+            width: 166px;
+            border-radius: 10px;
+        }
+
+        .ai img {
+            height: 104px;
+            width: 171px;
+            border-radius: 10px;
+        }
+
+        .cargill img {
+            height: 61px;
+            width: 155px;
+            border-radius: 10px;
+            padding-top: 29px;
+        }
+
+        .epsilon img {
+            height: 123px;
+            width: 173px;
+            border-radius: 10px;
+            padding-top: 43px;
+        }
+
+        .for {
+            color: white;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .restart {
+            margin-bottom: 15px;
+            font-family: italic;
+        }
+
+        .begin {
+            display: block;
+            margin: 0 auto;
+            border: 2px solid white;
+            border-radius: 50px;
+            background-color: rgb(220, 11, 11);
+            color: white;
+            margin-left: 1138px;
+            position: fixed;
+            top: 250px;
+            z-index: 99;
+        }
+
+        .caps {
+            width: 288px;
+            border: 2px solid whitesmoke;
+            border-radius: 12px;
+            height: 296px;
+            background-color: bisque;
+            margin-top: 50px;
+            margin-left: 88px;
+        }
+
+        .caps1 {
+            width: 288px;
+            border: 2px solid whitesmoke;
+            border-radius: 12px;
+            height: 296px;
+            background-color: bisque;
+            margin-top: 50px;
+            margin-left: 30px;
+        }
+
+        .caps2 {
+            width: 288px;
+            border: 2px solid whitesmoke;
+            border-radius: 12px;
+            height: 296px;
+            background-color: bisque;
+            margin-top: 50px;
+            margin-left: -30px;
+        }
+
+        .caps:hover {
+            background-color: whitesmoke;
+        }
+
+        .caps1:hover {
+            background-color: whitesmoke;
+        }
+
+        .caps2:hover {
+            background-color: whitesmoke;
+        }
+
+        .caps img {
+            width: 284px;
+            border-radius: 12px;
+            height: 113px;
+        }
+
+        .caps1 img {
+            width: 284px;
+            border-radius: 12px;
+            height: 113px;
+        }
+
+        .caps2 img {
+            width: 284px;
+            border-radius: 12px;
+            height: 113px;
+        }
+
+        .collage {
+            background-color: rgb(98, 98, 118);
+            border: 2px solid whitesmoke;
+            height: 400px;
+        }
+
+        .work {
+            margin-top: 10px;
+            color: black;
+            padding-left: 5px;
+        }
+
+        .plus {
+            margin-top: 30px;
+            color: black;
+            padding-left: 5px;
+        }
+
+        .plus1 {
+            margin-top: -26px;
+            color: black;
+            padding-left: 5px;
+        }
+
+        .gain {
+            color: black;
+            text-decoration: underline;
+            margin-left: 184px;
+        }
+
+        .gain:hover {
+            color: red;
+        }
+
+        .up {
+            font-family: italic;
+            color: black;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .hit {
+            height: 370px;
+            background-color: whitesmoke;
+            margin-bottom: 50px;
+        }
+
+        .global {
+            margin-top: 18px;
+            border: 8px solid rgb(138, 165, 175);
+            border-radius: 5px;
+            height: 240px;
+            width: 473px;
+            margin-left: 51px;
+
+        }
+
+        .global1 {
+            margin-top: 18px;
+            border: 8px solid rgb(138, 165, 175);
+            border-radius: 5px;
+            height: 240px;
+            width: 473px;
+
+        }
+
+        .global3 {
+            margin-top: 18px;
+            border: 2px solid rgb(138, 165, 175);
+            border-radius: 5px;
+            height: 53px;
+            width: 470px;
+            margin-left: 46px;
+            padding-left: 16px;
+            background-color: rgb(138, 165, 175);
+        }
+
+        .global4 {
+            margin-top: 18px;
+            border: 2px solid rgb(138, 165, 175);
+            border-radius: 5px;
+            height: 53px;
+            width: 470px;
+            padding-left: 13px;
+            background-color: rgb(138, 165, 175);
+        }
+
+        .in {
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+
+        .branch {
+            margin-bottom: 30px;
+        }
+
+        .card-text {
+            margin-top: 8px;
+            margin-left: 5px;
+        }
+
+        .card-title {
+            margin-top: 8px;
+            margin-left: 5px;
+            margin-bottom: 8px;
+        }
+
+        .card:hover {
+            background-color: whitesmoke;
+        }
+
+        .card-list:hover {
+            box-shadow: 2px 2px 5px lightgrey;
+            border: 1px solid whitesmoke;
+        }
+
+        .but {
+            margin-right: 4px;
+            color: rgb(78, 76, 76);
+        }
+
+       
+
+        .mix {
+            margin-bottom: 30px;
+        }
+
+        .all {
+            text-align: center;
+            text-decoration: underline;
+            font-family: italic;
+        }
+
+        .all:hover {
+            color: red;
+        }
+
+        .device {
+            background-color: #e78b8b;
+            height: 640px;
+        }
+
+        .chance {
+            margin-top: 154px;
+            margin-left: 35px;
+            margin-right: 35px;
+            margin-bottom: 70px;
+        }
+
+        .build {
+            font-family: italic;
+            color: white;
+        }
+
+        .build1 {
+            margin-top: 8px;
+            color: white;
+        }
+
+        .swipe {
+            border: 2px solid whitesmoke;
+            border-radius: 20px;
+            height: 585px;
+            width: 742px;
+            margin-top: 20px;
+            margin-left: 35px;
+            margin-bottom: 20px;
+            padding-left: 9px;
+            padding-right: 9px;
+            background-color: whitesmoke;
+        }
+
+        .try {
+            display: block;
+            margin: 0 auto;
+            background-color: black;
+            color: white;
+            width: 713px;
+        }
+
+        .show {
+            background-color: black;
+            height: 100px;
+
+        }
+
+        .nav-course-ml ul li {
+
+            margin-bottom: 20px;
+            margin-top: 30px;
+            margin-right: 15px;
+            margin-left: 28px;
+        }
+
+        .nav-course-ml li a {
+            color: white !important;
+            font-size: 20px;
+        }
+
+        .via {
+            font-size: 16px;
+            color: white;
+            margin-top: 51px;
+            margin-left: 80px;
+            margin-right: 5px;
+        }
+
+        .about {
+            margin-right: 25px;
+            color: white;
+        }
+
+        .safe {
+            margin-right: 3px;
+            margin-top: 30px;
+            color: white;
+            margin-left: 34px;
+            font-size: 18px;
+        }
+
+        .bright {
+            background-color: black;
+            height: 70px;
+
+        }
+
+        .make {
+            margin-top: 6px;
+            color: whitesmoke;
+            width: 350px;
+        }
+
+        .merge {
+            background-color: black;
+            height: 620px;
+        }
+
+        .grow {
+            margin-top: 20px;
+            margin-left: 28px;
+            color: white;
+            margin-right: 25px;
+        }
+
+        .grow1 {
+            margin-left: 28px;
+            margin-top: 7px;
+            color: white;
+            margin-right: 35px;
+            width: 342px;
+        }
+
+        .grow2 {
+            margin-top: 20px;
+            margin-left: 28px;
+            color: white;
+            margin-right: 25px;
+        }
+
+        .learn {
+            margin-right: 45px;
+            color: white;
+            float: right;
+            margin-top: 20px;
+        }
+
+        .sent {
+            height: 100px;
+        }
+
+        .high img {
+            height: 102px;
+            width: 271px;
+            margin: 0 auto;
+            display: block;
+            margin-top: 32px;
+        }
+        .nav-link-sent {
+            text-decoration: none;
+            margin-right: 12px;
+            margin-left: 14px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container no fixed-top">
+        <div class=" row  ">
+            <div class="col-sm-4">
+                <div class="sct-header">
+                    <img src="photo/mani.png ">
+
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <nav class="navbar navbar-expand-sm navbar-light nav-custom-cl">
+                    <div class="container-fluid">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Institution</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Online Manipal Plus</a>
+                            </li>
+                </nav>
+            </div>
+            <div class="col-sm-2">
+                <div class="key">
+                    <button type="submit" class="btn ">Enroll Now</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Slider section  -->
+    <div class="container">
+        <div class="col-sm-12 justify-text-center">
+
+            <div class="row">
+                <!-- Carousel -->
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    </div>
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <img src="photo/mani1.jpeg" alt="Los Angeles" class="d-block part"
+                                style="width:100%;height: 450px;object-fit: cover;">
+                            <div class="self">
+                                <h1 class="head1">Find Courses from the top<br>Manipal universities</h1>
+                                <div class="container box">
+                                    <div class="row ">
+                                        <div class="col-sm-4 ">
+                                            <div class="press">
+                                                <img src="photo/f.jpg">
+                                            </div>
+                                            <h6 class="Mahe">MAHE</h6>
+                                        </div>
+
+                                        <div class="col-sm-4 ">
+                                            <div class="press1">
+                                                <img src="photo/f2.jpg">
+                                            </div>
+                                            <h6 class="muj">MUJ</h6>
+
+                                        </div>
+                                        <div class="col-sm-4 ">
+                                            <div class="press2">
+                                                <img src="photo/f3.jpg">
+                                            </div>
+                                            <h6 class="smu">SMU</h6>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                                <div class="do">
+                                    <button type="submit" class="btn ">Get Started</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="photo/mani3.jpeg" alt="Los Angeles" class="d-block part"
+                                style="width:100%;height: 450px;object-fit: cover;">
+                            <div class="self">
+                                <h1 class="head">Find Courses from the top<br>Manipal universities</h1>
+                                <p class="para">Manipal universities are helping you learn without limits.</p>
+                                <div class="say">
+                                    <button type="submit" class="btn ">Get Started</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="photo/mani2.jpeg" alt="Los Angeles" class="d-block part"
+                                style="width:100%;height: 450px;object-fit: cover;">
+                            <div class="self">
+                                <h1 class="head">Career Growth<br>now Within reach</h1>
+                                <p class="para">Manipal universities are helping you learn without limits.</p>
+                                <div class="say">
+                                    <button type="submit" class="btn ">Get Started</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Left and right controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container so">
+        <div class="row ">
+            <div class="col-sm-3 ">
+                <div class="sct1">
+                    <h3 style="color: rgb(229, 158, 25) ; "> 70+</h3>
+                    <h6>year of educational<br> Excellence</h6>
+                </div>
+            </div>
+
+            <div class="col-sm-2 ">
+                <div class="sct1">
+                    <h3 style="color: rgb(229, 158, 25);">1500+</h3>
+                    <h6>Learner footprint<br>across towns &cities<br>of india</h6>
+                </div>
+            </div>
+            <div class="col-sm-2 ">
+                <div class="sct1">
+                    <h3 style="color: rgb(229, 159, 25);">60+</h3>
+                    <h6>Student Nartionalities</h6>
+                </div>
+            </div>
+            <div class="col-sm-2 ">
+                <div class="sct1">
+                    <h3 style="color: rgb(229, 159, 25);">3000+</h3>
+                    <h6>Expert Faculity</h6>
+                </div>
+            </div>
+            <div class="col-sm-3 ">
+                <div class="sct1">
+
+                    <h3 style="color: rgb(229, 159, 25);">100+</h3>
+                    <h6>Recuriters from<br>Fortune 500<br>companies</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="for">
+                    <h2 class="means">Explore our online degree causes & certifications</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3 ">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active-sent" data-bs-toggle="tab" href="home">All</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link-sent" data-bs-toggle="tab" href="menu1">Bachelor's Degree</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link-sent" data-bs-toggle="tab" href="menu2">Master's Degree</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link-sent" data-bs-toggle="tab" href="professional certification">Professional
+                    certification</a>
+            </li>
+        </ul>
+ <!-- Tab panes -->
+ <div class="tab-content">
+    <div id="home" class="container tab-pane active"><br>
+      <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div id="menu1" class="container tab-pane fade"><br>
+      <h3>Menu 1</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="menu2" class="container tab-pane fade"><br>
+      <h3>Menu 2</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+  </div>
+</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="shift">
+                    <h6 class="insert">Browse All Courses</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-sm-12">
+
+                <button type="submit" class="btn begin">Enroll Now</button>
+
+            </div>
+        </div>
+    </div>
+    <div class="container bg-light get">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="block">
+                    <i class="fa-solid fa-graduation-cap exit"></i>
+                    <h6 class="block1">No-cost EMIs & more</h6>
+                    <p class="block2">With our no-cost EMIs & other easy financing options,we let<br>your learning take
+                        the spotlight without the stress of financing.</p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="block">
+                    <i class="fa-solid fa-graduation-cap exit"></i>
+                    <h6 class="block1">Scholarships up to 30%</h6>
+                    <p class="block2">Exclusive Scholarships designed for mertorious students,<br>defense
+                        personnel,government employees,differently abled<br>people,Manipal alumni & learners from Sikkim
+                        and other<br>Northeast regions of india.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-light lock">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="home">
+                    <button type="submit" class="btn ">Request call back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container back">
+        <div class="row">
+            <div class="col-sm-5">
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="fa-solid fa-box next"></i>UGC-entitled degrees</li>
+                    <li class="list-group-item"><i class="fa-solid fa-graduation-cap next"></i> Attractive scholarships
+                    </li>
+                    <li class="list-group-item"><i class="fa-solid fa-box-tissue next"></i>Placement assistance</li>
+                    <li class="list-group-item"><i class="fa-solid fa-sun next"></i>Prestigious Manipal alumni status
+                    </li>
+                    <li class="list-group-item"><i class="fa-brands fa-youtube next"></i>Industry webinars & simulations
+                    </li>
+                    <li class="list-group-item"><i class="fa-solid fa-earth-asia next"></i>Global Classroom</li>
+                    <li class="list-group-item"><i class="fa-solid fa-address-book next"></i>In-person campus immersion
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-7">
+                <div class="space">
+                    <img src="photo/grad.jpeg">
+                    <h5 class="online">UGC-entitled degrees</h5>
+                    <h6 class="know">Acess UGC-entitled degrees from world class universities that are NAAC
+                        accredited.Pursue<br>online degrees that are at par with conventional on-campus degrees and
+                        accepted by <br>governments,corporate organisations,and higher education institutions.</h6>
+                    <b class="know1">Choose our online programs to avail all these advantages & more</b><span> <button
+                            type="submit" class="btn switch">Enroll Now</button></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid gap">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="input">
+                    <h2 class="check">Career & placement assistance services</h2>
+                    <p class="course">With an experienced team and extensive industry connections,we help you find the
+                        right opportunities to take your career to the next level.</p>
+                    <button type="submit" class="btn search">Enroll Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid keep">
+        <div class="cage">
+            <div class="row ">
+                <div class="col-sm-3 ">
+                    <div class="capgemini">
+                        <img src="photo/ok1.png">
+                    </div>
+
+                    <div class="infosys">
+                        <img src="photo/ok2.png">
+                    </div>
+                    <div class="nielsen">
+                        <img src="photo/ok3.png">
+                    </div>
+                    <div class="tata">
+                        <img src="photo/ok4.png">
+                    </div>
+                </div>
+                <div class="col-sm-2 ">
+                    <div class="hp">
+                        <img src="photo/ok5.png">
+                    </div>
+                    <div class="wipro">
+                        <img src="photo/ok21.png">
+                    </div>
+                    <div class="genpact">
+                        <img src="photo/ok7.jpeg">
+                    </div>
+                    <div class="tredence">
+                        <img src="photo/ok8.png">
+                    </div>
+                </div>
+                <div class="col-sm-2 ">
+                    <div class="accenture">
+                        <img src="photo/ok9.png">
+                    </div>
+                    <div class="ibm">
+                        <img src="photo/ok10.png">
+                    </div>
+                    <div class="siemens">
+                        <img src="photo/ok11.png">
+                    </div>
+                    <div class="quess">
+                        <img src="photo/ok12.png">
+                    </div>
+                </div>
+                <div class="col-sm-2 ">
+                    <div class="deloitte">
+                        <img src="photo/ok13.png">
+                    </div>
+                    <div class="mygate">
+                        <img src="photo/ok14.png">
+                    </div>
+                    <div class="kpmg">
+                        <img src="photo/ok15.png">
+                    </div>
+                    <div class="girnarsoft">
+                        <img src="photo/ok16.png">
+                    </div>
+                </div>
+                <div class="col-sm-3 ">
+                    <div class="ey">
+                        <img src="photo/ok17.png">
+                    </div>
+                    <div class="ai">
+                        <img src="photo/ok18.png">
+                    </div>
+                    <div class="cargill">
+                        <img src="photo/ok19.png">
+                    </div>
+                    <div class="epsilon">
+                        <img src="photo/ok20.png">
+                    </div>
+                </div>
+            </div>
+            <h6 class="for">Note:Expected recurities subject to confirmation</h6>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="restart">Learner experience</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-sm-12 justify-text-center">
+
+            <div class="row">
+                <!-- Carousel -->
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    </div>
+
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <div class="container collage">
+                                <div class="row ">
+                                    <div class="col-sm-4 ">
+                                        <div class="caps">
+                                            <img src="photo/d1.jpeg">
+                                            <p class="work">As an entrepreneur,i wanted to pursue<br>a master's degree
+                                                to evolve and gain<br>some skills that will help me market.</p>
+                                            <b class="plus">John Wick</b><span>
+                                                <h6 class="gain">Read More</h6>
+                                            </span>
+                                            <h6 class="plus1">Online MBA</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 ">
+                                        <div class="caps1">
+                                            <img src="photo/d2.jpeg">
+                                            <p class="work">As an entrepreneur,i wanted to pursue<br>a master's degree
+                                                to evolve and gain<br>some skills that will help me market</p>
+                                            <b class="plus">James Wick</b><span>
+                                                <h6 class="gain">Read More</h6>
+                                            </span>
+                                            <h6 class="plus1">Online MBA</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 ">
+                                        <div class="caps2">
+                                            <img src="photo/d3.jpeg">
+                                            <p class="work">As an entrepreneur,i wanted to pursue<br>a master's degree
+                                                to evolve and gain<br>some skills that will help me market</p>
+                                            <b class="plus">Oliver Wick</b><span>
+                                                <h6 class="gain">Read More</h6>
+                                            </span>
+                                            <h6 class="plus1">Online MBA</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container collage">
+                                <div class="row ">
+                                    <div class="col-sm-4 ">
+                                        <div class="caps">
+                                            <img src="photo/d4.jpeg">
+                                            <p class="work">As an entrepreneur,i wanted to pursue<br>a master's degree
+                                                to evolve and gain<br>some skills that will help me market</p>
+                                            <b class="plus">Andrew Wick</b><span>
+                                                <h6 class="gain">Read More</h6>
+                                            </span>
+                                            <h6 class="plus1">Online MBA</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 ">
+                                        <div class="caps1">
+                                            <img src="photo/d5.jpeg">
+                                            <p class="work">As an entrepreneur,i wanted to pursue<br>a master's degree
+                                                to evolve and gain<br>some skills that will help me market</p>
+                                            <b class="plus">Leo Wick</b><span>
+                                                <h6 class="gain">Read More</h6>
+                                            </span>
+                                            <h6 class="plus1">Online MBA</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 ">
+                                        <div class="caps2">
+                                            <img src="photo/d1.jpeg">
+                                            <p class="work">As an entrepreneur,i wanted to pursue<br>a master's degree
+                                                to evolve and gain<br>some skills that will help me market</p>
+                                            <b class="plus">Lucas Wick</b><span>
+                                                <h6 class="gain">Read More</h6>
+                                            </span>
+                                            <h6 class="plus1">Online MBA</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container collage">
+                                <div class="row ">
+                                    <div class="col-sm-4 ">
+                                        <div class="caps">
+                                            <img src="photo/d3.jpeg">
+                                            <p class="work">As an entrepreneur,i wanted to pursue<br>a master's degree
+                                                to evolve and gain<br>some skills that will help me market</p>
+                                            <b class="plus">Edward Wick</b><span>
+                                                <h6 class="gain">Read More</h6>
+                                            </span>
+                                            <h6 class="plus1">Online MBA</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 ">
+                                        <div class="caps1">
+                                            <img src="photo/d4.jpeg">
+                                            <p class="work">As an entrepreneur,i wanted to pursue<br>a master's degree
+                                                to evolve and gain<br>some skills that will help me market</p>
+                                            <b class="plus">Carter Wick</b><span>
+                                                <h6 class="gain">Read More</h6>
+                                            </span>
+                                            <h6 class="plus1">Online MBA</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 ">
+                                        <div class="caps2">
+                                            <img src="photo/d5.jpeg">
+                                            <p class="work">As an entrepreneur,i wanted to pursue<br>a master's degree
+                                                to evolve and gain<br>some skills that will help me market</p>
+                                            <b class="plus">Aiden Wick</b><span>
+                                                <h6 class="gain">Read More</h6>
+                                            </span>
+                                            <h6 class="plus1">Online MBA</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="up">Video vault</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-sm-12 justify-text-center">
+
+            <div class="row">
+                <!-- Carousel -->
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    </div>
+
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <div class="container hit">
+                                <div class="row ">
+                                    <div class="col-sm-6 ">
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/S94e4acuEt0?si=cbiaKmSQgpeDSXd5"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+                                            class="global"></iframe>
+
+                                        <div class="global3">
+                                            <p class="day">Empowerment ki Shuruaat,Online Manipal Ke Saath | Online<br>
+                                                Manipal.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/vhnhUq8E-ZA?si=mxWU1q506E3QYqjH"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+                                            class="global1"></iframe>
+                                        <div class="global4">
+                                            <p class="day">Empowerment ki Shuruaat,Online Manipal Ke Saath | Online<br>
+                                                Manipal.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container branch">
+        <div class="row">
+            <div class="col-sm-3 card-list">
+                <div class="card mb-3">
+                    <img src="photo/lap5.jpeg" class="card-img-top" alt="laptop">
+                    <div class="in">
+                        <i class="fa-regular fa-calendar-days but "></i><b class="card1">March4 2024</b>
+                    </div>
+                    <p class="card-text">Women leading the way:Inspiring<br> tales from our...</p>
+                    <h5 class="card-title">Online Manipal Editorial Team</h5>
+                </div>
+            </div>
+            <div class="col-sm-3 card-list">
+                <div class="card mb-3">
+                    <img src="photo/lap8.jpeg" class="card-img-top" alt="laptop">
+                    <div class="in">
+                        <i class="fa-regular fa-calendar-days but "></i><b class="card1">March4 2024</b>
+                    </div>
+                    <p class="card-text">Government jobs for MBA<br>graduates.</p>
+                    <h5 class="card-title">Online Manipal Editorial Team</h5>
+                </div>
+            </div>
+            <div class="col-sm-3 card-list">
+                <div class="card mb-3">
+                    <img src="photo/lap7.jpeg" class="card-img-top" alt="laptop">
+                    <div class="in">
+                        <i class="fa-regular fa-calendar-days but"></i><b class="card1">March4 2024</b>
+                    </div>
+                    <p class="card-text">MBA project management<br>case studies.</p>
+                    <h5 class="card-title">Online Manipal Editorial Team</h5>
+                </div>
+            </div>
+            <div class="col-sm-3 card-list">
+                <div class="card mb-3">
+                    <img src="photo/lap12.jpeg" class="card-img-top" alt="laptop">
+                    <div class="in">
+                        <i class="fa-regular fa-calendar-days but "></i><b class="card1">March4 2024</b>
+                    </div>
+                    <p class="card-text">Operations management tools<br>to excel in your job.</p>
+                    <h5 class="card-title">Online Manipal Editorial Team</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mix">
+        <div class="row">
+            <div class="col-sm-12">
+                <h6 class="all">Show all</h6>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid device">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="chance">
+                    <h2 class="build">Know more about<br>our programs</h2>
+                    <p class="build1">Interested to join courses?<br>Share your details and we'll get back to you.</p>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="swipe">
+                    <form action="/action_page.php">
+                        <div class="mb-3 mt-3">
+                            <label for="name" class="form-label">Name:</label>
+                            <input type="name" class="form-control" id="name" placeholder="Enter your name*"
+                                name="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Entername@email.com"
+                                name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mob" class="form-label">Mobile:</label>
+                            <input type="number" class="form-control" id="mob" placeholder="Enter mobile number*"
+                                name="mob">
+                        </div>
+                        <div class="mb-3">
+                            <label for="course" class="form-label">Course:</label>
+                            <input type="course" class="form-control" id="course" placeholder="Select course"
+                                name="course">
+                        </div>
+                        <div class="mb-3">
+                            <label for="institution" class="form-label">Institution:</label>
+                            <input type="institution" class="form-control" id="institution"
+                                placeholder="Select institution" name="institution">
+                        </div>
+                        <div class="form-check mb-3">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox"> I authorize Online Manipal and its
+                                associates to contact me with updates & notifications via email,<br>SMS, Whatsapp, and
+                                voicecall.This consent will override any registration for DNC/NDNC.
+                            </label>
+                        </div>
+                        <button type="submit" class="btn try">Enroll Now</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid show">
+        <div class="row">
+            <div class="col-sm-9">
+                <nav class="navbar navbar-expand-sm navbar-light nav-course-ml">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Online Manipal Plus</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Placements</a>
+                        </li>
+                </nav>
+            </div>
+            <div class="col-sm-3">
+                <i class="fa-solid fa-tty via"></i> <span><b class="about">Help Center</b></span>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bright">
+        <div class="row">
+            <div class="col-sm-12">
+                <i class="fa-brands fa-facebook safe"></i><i class="fa-brands fa-instagram safe"></i><i
+                    class="fa-solid fa-inbox safe"></i><i class="fa-brands fa-youtube safe"></i>
+                <hr class="make">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid merge">
+        <div class="row">
+            <div class="col-sm-4">
+                <h6 class="grow">Explore Our Institution</h6>
+                <p class="grow1">Manipal Academy of Higher Education</p>
+                <p class="grow1">Manipal university Jaipur</p>
+                <p class="grow1">T.A. pai Management Institute</p>
+                <p class="grow1">Manipal Institute of Technology</p>
+                <p class="grow1">Sikkim Manipal university</p>
+                <h6 class="grow2">Program</h6>
+                <p class="grow1">Management</p>
+                <p class="grow1">Master of Business Administration(For working<br>Professionals)</p>
+                <p class="grow1">MBA-Banking and Financial Services(MBA-BKFS)</p>
+                <p class="grow1">Master of Business Administration(MBA)</p>
+                <p class="grow1">Bachelor of Business Administration(BBA)</p>
+            </div>
+            <div class="col-sm-4">
+                <h6 class="grow">Explore Our Institution</h6>
+                <p class="grow1">Manipal Academy of Higher Education</p>
+                <p class="grow1">Manipal university Jaipur</p>
+                <p class="grow1">T.A. pai Management Institute</p>
+                <p class="grow1">Manipal Institute of Technology</p>
+                <p class="grow1">Sikkim Manipal university</p>
+                <h6 class="grow2">Program</h6>
+                <p class="grow1">Management</p>
+                <p class="grow1">Master of Business Administration(For working<br>Professionals)</p>
+                <p class="grow1">MBA-Banking and Financial Services(MBA-BKFS)</p>
+                <p class="grow1">Master of Business Administration(MBA)</p>
+                <p class="grow1">Bachelor of Business Administration(BBA)</p>
+            </div>
+            <div class="col-sm-4">
+                <h6 class="grow">Explore Our Institution</h6>
+                <p class="grow1">Manipal Academy of Higher Education</p>
+                <p class="grow1">Manipal university Jaipur</p>
+                <p class="grow1">T.A. pai Management Institute</p>
+                <p class="grow1">Manipal Institute of Technology</p>
+                <p class="grow1">Sikkim Manipal university</p>
+                <h6 class="grow2">Program</h6>
+                <p class="grow1">Management</p>
+                <p class="grow1">Master of Business Administration(For working<br>Professionals)</p>
+                <p class="grow1">MBA-Banking and Financial Services(MBA-BKFS)</p>
+                <p class="grow1">Master of Business Administration(MBA)</p>
+                <p class="grow1">Bachelor of Business Administration(BBA)</p>
+                <hr class="gain">
+                <b class="learn">Online Manipal 2024</b>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid sent">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="high">
+                    <img src="photo/mani.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+ <p></p>
+</body>
+<script>
+   
+      var data;
+
+     class Car {
+        constructor(carName, CarModel, carYear){
+            this.carName = carName;
+            this.CarModel = CarModel;
+            this.carYear = carYear
+        }
+
+        age(){
+            let date =  new Date();
+            return date.getFullYear() - this.carYear;
+        }
+       
+     }
+
+     let classObc = new Car('Maruti', 'XI', 2020);
+     document.write(classObc.carName, "<br>");
+     document.write(classObc.CarModel, "<br>");
+     document.write(classObc.age());
+</script>
+</html>
+

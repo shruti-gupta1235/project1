@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Promise Object</h1>
+<h2>The then() Method</h2>
+
+<p id="demo"></p>
+
+<script>
+function myfunction(main) {
+  document.getElementById("demo").innerHTML = main;
+}
+
+let myPromise = new Promise(function(resolve, reject) {
+  let x = 10;
+  if (x == 15) {
+    reslove("OKkkkkkkkk");
+  } else {
+    reject("Error");
+  }
+});
+
+myPromise.then(
+  function(value) {myfunction(value);},
+  function(error) {myfunction(error);}
+);
+
+
+let arrPromise = new Promise(function(resolve, reject){
+  if(resolve){
+    document.write("Shruti")
+  }else if(reject){
+    document.write("error")
+  }
+});
+
+arrPromise.then(function(result){
+   result()
+}).catch(function(error){
+  error();
+})
+</script>
+
+</body>
+</html>

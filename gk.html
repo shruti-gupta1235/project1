@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .sct img{
+            height:100px;
+        margin-bottom: 20px;
+        }
+        .nav-custom-cl{
+            float:right;
+            margin-top: 10px;
+            margin-bottom: 80px;
+        }
+        .nav-custom-cl ul li{
+            margin-right: 50px;
+
+        }
+        .nav-custom-cl ul a{
+        font-size: 16px;
+        font-weight: 700;
+
+        }
+        .header-sct{
+            height: 80px;
+        }
+        .btn {
+           width: 80px;
+           background-color: rgb(26, 106, 181);
+           text-align: center;
+           padding-bottom: 10px;
+           margin-bottom: 20px;
+        } 
+        .form-control{
+            height: 30px;
+            width: 150px;
+            margin-bottom: 10px;
+        }
+        .carousel{
+height: 400px;
+        }
+        .sct{
+            margin: 70px 40px;
+            
+        
+        }
+        .pro{
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+            padding-left: 75px;
+            margin: 60px 370px;
+            width: 400px;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid mt-3 ">
+     <div class=" row bg-light header-sct">
+        <div class="col-sm-3">
+            <div class="sct-header">
+            <img src="photo/u.png">
+        </div>
+
+     </div>
+     <div class="col-sm-9">
+        <nav class="navbar navbar-expand-sm navbar-light nav-custom-cl">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="f.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="j.html">Blogs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">Contact us</a>
+                                        </li>
+                                        <form class="d-flex">
+                                            <input class="form-control me-2" type="text" placeholder="Search">
+                                            <button class="btn btn-dark" type="button">Search</button>
+                                          </form> 
+
+        </nav>
+        </div>
+     </div>
+       <!-- Slider section  -->
+       <div class="row">
+        <div class="col-sm-12">
+            <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+                
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="photo/images (1).jpg" alt="Los Angeles" class="d-block" style="width:100%;height: 450px;object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="photo/images.jpg" alt="Chicago" class="d-block" style="width:100%;height: 450px;object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="photo/download.jpg" alt="New York" class="d-block" style="width:100%;height: 450px;object-fit: cover;">
+                </div>
+                </div>
+                
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="sct">
+    <h1 class="text-center">About project</h1>
+    <p class="text-center">Square Yards is Indias largest integrated platform for Real Estate & Mortgages and one of the fastest growing Proptech platform in UAE, Rest of Middle East, Australia & Canada. Square Yards platform offers an integrated consumer experience & covers the full real-estate journey from search & discovery, transactions, home loans, interiors, rentals, property management and post-sales service. With Urbanisation and rising disposable incomes as the core theme, Square Yards, with 7mn+ monthly traffic and ~USD 3bn+ GTV, is the largest and asset light proxy play to the growing residential demand story of India. One of the few Indian start ups to taste global success with presence in 100+ cities across 9 countries, Square Yards is at the forefront of tech adoption in the sector, with multiple patents across VR/AI domains.
+
+    </p>
+    <div class="pro">
+    <div class="mb-3 mt-3 ">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+      <div class="mb-3">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+      </div>
+      <div class="form-check mb-3">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="remember"> Remember me
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>
+</div>
+
+
+            </body>
+            </html>

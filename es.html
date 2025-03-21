@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+ <p Id="demo"></p>
+ <p Id="demo1"></p>
+</body>
+<script>
+    class Student{
+        constructor(name, age, address){
+            this.name = name;
+            this.age = age;
+            this.address = address
+        }
+    }
+
+    let obj1 = new Student('Nishika', 20, 'Kolkata');
+    document.write(obj1.name, "<br/>");
+    document.write(obj1.age, "<br/>");
+    document.write(obj1.address, "<br/>","<br/>");
+    // document.getElementById("demo").innerHTML = obj1.address;
+
+    let obj2 = new Student('Supriya', 20,'Mumbai');
+    document.write(obj2.name, "<br/>");
+    document.write(obj2.age, "<br/>");
+    document.write(obj2.address, "<br/>");
+    // document.getElementById("demo1").innerHTML = obj2.address;
+
+    
+</script>
+</html>

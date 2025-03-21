@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+ <p></p>
+</body>
+<script>
+
+   
+     class Person {
+        constructor(name){
+            this.name = name;
+        }
+
+        get nameFun(){
+            return this.name;
+        }
+
+        set setNameFun(newName){
+          newName = newName.trim();
+          this.name = newName;
+        }
+       
+     }
+
+     let intro = new Person('Shruti');
+     document.write(intro.nameFun);
+</script>
+</html>
+

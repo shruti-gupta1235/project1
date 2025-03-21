@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+  
+<script>
+let myPromise = new Promise(function(resolve, reject) {
+  let success = true; 
+  if (success) {
+    resolve("The data has loaded successfully!");
+  } else {
+    reject("There was an error loading the data.");
+  }
+});
+arrPromise.then(function(result){
+  result()
+})
+.catch(function(error){
+error();
+
+});
+// myPromise.then(function(message) {
+//   console.log(message); 
+// }).catch(function(error) {
+//   console.log(error); 
+// });
+
+</script>
+</body>
+</html>

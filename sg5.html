@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+   
+<body>
+<h2>Hello India</h2>
+<p>const has block scope,but can't be reassigned and redeclared the values</p>
+<p id="demo"></p>
+</body>
+<script>
+    const x=10;
+    {
+        const x=2;   
+    }
+    document.getElementById("demo").innerHTML="The value of x is: " + x;
+</script>
+
+
+</html>

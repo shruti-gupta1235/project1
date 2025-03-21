@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .sct-header img {
+            float: left;
+            margin-top: 10px !important;
+            margin-right: 15px;
+            height: 25px;
+        }
+
+        .main img {
+            height: 35px;
+            margin-top: 5px !important;
+            float: left;
+            margin-right: 15px;
+        }
+
+        h3 {
+            position: relative !important;
+            top: 5px;
+            margin-top: 12px;
+        }
+
+        h5 {
+            position: relative;
+            top: 5px;
+            margin-top: 18px;
+        }
+
+        .nav-custom-cl {
+            float: left;
+            margin-top: 10px;
+            margin-bottom: 80px;
+        }
+
+        .nav-custom-cl ul li {
+            margin-right: 10px;
+        }
+
+        .nav-custom-cl ul a {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .btn {
+            margin: 0 auto !important;
+            display: block;
+            color: white;
+            background-color: rgb(188, 138, 46);
+            border-radius: 10px;
+            margin-right: 8px;
+            margin-top: 15px !important;
+            margin-bottom: 5px;
+        }
+
+        .carousel-item {
+            position: relative;
+        }
+
+        .self {
+            position: absolute;
+            top: 90px;
+        }
+
+        .no {
+            height: 80px;
+
+        }
+
+        .head {
+            margin-right: 140px;
+            margin-left: 300px;
+            color: white;
+        }
+
+        .para {
+            margin-right: 140px;
+            margin-left: 300px;
+            color: white;
+        }
+
+        .do button {
+            margin-right: 380px !important;
+            margin-top: 50px;
+            background-color: rgb(103, 93, 93);
+        }
+
+        .nav-custom-cltry ul li {
+            margin-top: 10px;
+            margin-right: 12px;
+        }
+
+        .nav-custom-cltry ul a {
+            font-size: 15px;
+            font-weight: 700;
+            color: white !important;
+        }
+
+        .pro {
+            height: 60px !important;
+        }
+
+        .logo img {
+            height: 25px;
+            float: left;
+            margin-top: 25px !important;
+            margin-right: 0px;
+            border-radius: 45px;
+        }
+
+        .logo1 img {
+            height: 25px;
+
+            margin-top: 25px !important;
+            margin-right: 15px;
+
+        }
+
+        h2 {
+            position: relative !important;
+            top: 5px;
+            color: white;
+            margin-right: 20px;
+            float: left;
+            margin-top: 10px;
+        }
+
+        h4 {
+            position: relative;
+            top: 5px;
+            color: white;
+            margin-right: 20px;
+            float: left;
+            margin-top: 18px;
+        }
+
+        p {
+            float: left;
+            margin-left: 205px;
+            margin-left: 25px;
+        }
+
+        .desktop {
+            height: 400px;
+            margin-top: 470px;
+            background-color: rgb(242, 236, 236);
+            border: 2px solid rgb(242, 236, 236);
+
+        }
+
+        .heading {
+            text-align: center;
+            margin-top: 150px;
+            color: black;
+        }
+
+        .heading1 {
+            text-align: center;
+            margin-top: 5px;
+            color: black;
+            margin-left: 350px;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin-top: 0px;
+            background-color: rgb(249, 240, 240);
+            margin-bottom: 50px;
+            height: 300px;
+
+        }
+
+        .rub {
+            height: 150px;
+            border-radius: 15px;
+            border: 2px solid whitesmoke;
+            text-align: center;
+            color: black;
+            padding-top: 5px;
+            background-color: white;
+        }
+
+        .rub:hover {
+            background-color: #e9b149;
+        }
+
+        .can i {
+            padding-top: 6px;
+            font-size: 30px;
+        }
+
+        .lack {
+            margin-left: 36px;
+        }
+
+        .home {
+            margin-left: 42px;
+            margin-right: 320px;
+        }
+
+        .home1 {
+            margin-left: 41px;
+        }
+
+        .home3 {
+            margin-left: 4px;
+            margin-right: 10px;
+        }
+
+        .search img {
+            border: 8px solid #a09f9f;
+            border-radius: 20px;
+            margin-top: 15px;
+            margin-left: 148px;
+            height: 190px;
+        }
+
+        .script img {
+            border: 8px solid #a09f9f;
+            border-radius: 20px;
+            margin-top: -11px;
+            margin-left: -30px;
+            height: 288px;
+        }
+
+        .open {
+            padding-left: 44px;
+        }
+
+        .means {
+            text-align: center;
+            margin-top: 50px;
+            color: black;
+        }
+
+        .means1 {
+            text-align: center;
+            margin-top: 5px;
+            color: black;
+            margin-left: 350px;
+            margin-bottom: 30px;
+        }
+
+        .shift img {
+            border: 2px solid whitesmoke;
+            border-radius: 20px;
+            margin-top: 15px;
+            margin-left: 30px;
+            height: 190px;
+            width: 336px;
+            margin-bottom: 30px;
+        }
+
+        .lock img {
+            border: 2px solid whitesmoke;
+            border-radius: 20px;
+
+            margin-left: 30px;
+            height: 256px;
+            width: 517px;
+
+        }
+
+        .just {
+            background-color: whitesmoke;
+            height: 250px;
+            margin-top: 100px;
+
+        }
+
+        .basic {
+            text-align: center;
+            padding-top: 100px;
+            color: black;
+        }
+
+        .basic1 {
+            text-align: center;
+            margin-top: 5px;
+            color: black;
+            margin-left: 350px;
+            margin-bottom: 30px;
+        }
+
+        .all button {
+            margin: 0 auto !important;
+            display: block;
+            color: white;
+            background-color: rgb(188, 138, 46);
+            border-radius: 10px;
+            margin-right: 518px !important;
+            margin-top: 139px !important;
+
+            margin-bottom: 25px;
+        }
+
+        .count img {
+            border: 2px solid whitesmoke;
+            border-radius: 20px;
+            margin-top: 35px;
+            margin-left: 5px;
+            height: 284px;
+            width: 378px;
+            margin-bottom: 30px;
+            margin-right: 8px;
+
+        }
+
+        .count1 {
+            border: 2px solid whitesmoke;
+            border-radius: 20px;
+            margin-left: 8px;
+            height: 153px;
+            width: 378px;
+            padding-left: 33px;
+            margin-bottom: 30px;
+            padding-top: 17px;
+            background-color: whitesmoke;
+
+        }
+
+        .get {
+            height: 600px;
+
+            background-color: rgb(242, 236, 236);
+            border: 2px solid rgb(242, 236, 236);
+
+        }
+
+        .link {
+            text-align: center;
+            margin-top: 50px;
+            color: black;
+            margin-left: -1px;
+        }
+
+        .link1 {
+            text-align: center;
+            margin-top: 5px;
+            color: black;
+            margin-left: 350px;
+            margin-bottom: 30px;
+        }
+
+        .total img {
+            border: 2px solid whitesmoke;
+            border-radius: 20px;
+            margin-top: 35px;
+            margin-left: 5px;
+            height: 284px;
+            width: 378px;
+            margin-bottom: 30px;
+            margin-right: 8px;
+        }
+
+        .total1 {
+            margin-left: 8px;
+            margin-bottom: 30px;
+        }
+
+        .change {
+            height: 250px;
+            padding-top: 20px;
+            background-color: rgb(242, 236, 236);
+            border: 2px solid rgb(242, 236, 236);
+            margin-top: 20px;
+        }
+
+        .data {
+            text-align: center;
+            margin-top: 50px;
+            color: black;
+            margin-left: -1px;
+        }
+
+        .data1 {
+            text-align: center;
+            margin-top: 5px;
+            color: black;
+            margin-left: 350px;
+            margin-bottom: 30px;
+        }
+
+        .disc i {
+            margin-left: 590px;
+            margin-right: 45px;
+            font-size: 45px;
+            margin-top: 10px;
+
+        }
+
+        .task img {
+            margin-left: 522px;
+            margin-right: 45px;
+            height: 122px;
+            background-color: rgb(242, 236, 236);
+            margin-top: -8px;
+        }
+
+        .memory {
+            text-align: center;
+            margin-top: -18px;
+            color: rgb(220, 67, 67);
+            margin-left: 26px;
+            margin-bottom: 30px;
+        }
+
+        .memory1 {
+            text-align: center;
+            margin-left: 325px;
+            margin-top: -7px;
+
+        }
+
+        .proper {
+
+            background-color: white;
+            margin-top: 103px;
+            margin-bottom: 103px;
+        }
+
+        .step img {
+            height: 147px;
+            width: 199px;
+            margin-left: 15px;
+            border: 2px solid rgb(158, 150, 150);
+            border-radius: 20px;
+        }
+
+        .step1 img {
+            height: 147px;
+            width: 203px;
+            margin-left: -53px;
+            border: 2px solid rgb(158, 150, 150);
+            border-radius: 20px;
+        }
+
+        .step2 img {
+            height: 147px;
+            width: 203px;
+            margin-left: -12px;
+            border: 2px solid rgb(158, 150, 150);
+            border-radius: 20px;
+        }
+
+        .step3 img {
+            height: 147px;
+            width: 203px;
+            margin-left: 31px;
+            border: 2px solid rgb(158, 150, 150);
+            border-radius: 20px;
+        }
+
+        .step4 img {
+            height: 147px;
+            width: 203px;
+            margin-left: 72px;
+            border: 2px solid rgb(158, 150, 150);
+            border-radius: 20px;
+        }
+
+        .set {
+            height: 250px;
+            padding-top: 20px;
+            background-color: rgb(242, 236, 236);
+            border: 2px solid rgb(242, 236, 236);
+            margin-bottom: 15px;
+        }
+
+        .collect {
+            text-align: center;
+            margin-top: 50px;
+            color: black;
+            margin-left: -1px;
+        }
+
+        .collect1 {
+            text-align: center;
+            margin-top: 5px;
+            color: black;
+            margin-left: 350px;
+            margin-bottom: 60px;
+        }
+
+        .insert button {
+            text-align: center;
+            margin-top: 10px;
+            color: white;
+            background-color: rgb(188, 138, 46);
+            padding-top: 5px;
+            padding-bottom: 8px;
+
+
+        }
+
+        .page {
+            float: left;
+            margin-right: 20px;
+
+        }
+
+        .page input {
+            width: 328px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+
+        }
+
+        .newsletter {
+            width: 500px;
+            display: block;
+            margin: 50px auto;
+        }
+
+        .boxdate {
+            margin-right: 10px;
+        }
+
+        .footer-sct {
+            border: 2px solid black;
+            background-color: black;
+            margin-top: 90px;
+
+        }
+
+        .box img {
+            height: 30px;
+            width: 35px;
+            margin-left: -30px;
+            margin-top: 29px;
+            border-radius: 20px;
+            margin-bottom: -5px;
+        }
+
+        .box{
+            width: 271px;
+            margin-left: 80px;
+        }
+
+        .easy {
+            width: 271px;
+            margin-left: 80px;
+        }
+
+
+
+        .symbol {
+            font-size: 20px;
+            color: #e9b149 !important;
+            margin-bottom: 20px;
+            margin-left: -53px;
+            margin-right: -47px;
+        }
+
+        .tab {
+            color: white;
+            margin-left: 53px;
+            margin-top: 12px;
+            margin-bottom: 12px;
+
+        }
+
+        .begin {
+            color: white;
+            margin-left: -31px;
+            margin-top: 12px;
+            margin-bottom: 12px;
+        }
+
+        .from {
+            color: white;
+            margin-left: -10px;
+            margin-top: 33px;
+        }
+
+        .del {
+            color: white;
+            margin-left: 14px;
+            margin-top: -35px;
+        }
+
+        .pause ul li {
+            margin-left: -39px;
+            color: white;
+            list-style: none !important;
+
+        }
+
+        .reach {
+            margin-bottom: 11px;
+        }
+
+        .free {
+            background-color: black;
+            height: 80px;
+        }
+
+        .safe {
+            margin-right: 31px;
+            margin-top: 24px;
+            font-size: 16px;
+            float: right;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid  no ">
+        <div class=" row bg-light ">
+
+            <div class="col-sm-6">
+                <nav class="navbar navbar-expand-sm navbar-light nav-custom-cl">
+                    <div class="container-fluid">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Pages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">System Pages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Contact </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Help</a>
+                            </li>
+
+                </nav>
+            </div>
+
+            <div class="col-sm-2">
+                <div class="sct-header">
+                    <img src="photo/m.jpg ">
+                    <h3>RELXO </h3>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="main">
+                    <img src="photo/n.jpg">
+                    <h5>Deutsch</h5>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="key">
+                    <button type="submit" class="btn ">Get free Consultancy</button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Slider section  -->
+    <div class="col-sm-12 justify-text-center">
+        <div class="row">
+            <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <img src="photo/b.jpg" alt="Los Angeles" class="d-block"
+                            style="width:100%;height: 450px;object-fit: cover;">
+                        <div class="self">
+                            <h1 class="text-center head">Unlimited Yoga For<br>All Levels</h1>
+                            <p class="text-center para">Specially desigened for yoga school ,yoga studio and yoga online
+                                classes.Set up website easy<br>and fast with superior quality.</p>
+                            <div class="do">
+                                <button type="submit" class="btn">Browse our courseses</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photo/s.jpg" alt="Los Angeles" class="d-block"
+                            style="width:100%;height: 450px;object-fit: cover;">
+                        <div class="self">
+                            <h1 class="text-center head">Unlimited Yoga For<br>All Levels</h1>
+                            <p class="text-center para">Specially desigened for yoga school ,yoga studio and yoga online
+                                classes.Set up website easy<br>and fast with superior quality.</p>
+                            <div class="do">
+                                <button type="submit" class="btn ">Browse our courseses</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="photo/o.jpg" alt="Los Angeles" class="d-block"
+                            style="width:100%;height: 450px;object-fit: cover;">
+                        <div class="self">
+                            <h1 class="text-center head">Unlimited Yoga For<br>All Levels</h1>
+                            <p class="text-center para">Specially desigened for yoga school ,yoga studio and yoga online
+                                classes.Set up website easy<br>and fast with superior quality.</p>
+                            <div class="do">
+                                <button type="submit" class="btn  ">Browse our courseses</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="container-fluid mt-1 ">
+        <div class=" row bg-dark ">
+
+            <div class="col-sm-6">
+                <nav class="navbar navbar-expand-sm navbar-light nav-custom-cltry">
+                    <div class="container-fluid">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Pages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">System Pages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Contact </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Help</a>
+                            </li>
+
+                </nav>
+            </div>
+
+            <div class="col-sm-2">
+                <div class="logo">
+                    <img src="photo/m.jpg ">
+                    <h2>RELXO </h2>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="logo1">
+                    <img src="photo/n.jpg">
+                    <h4>Deutsch</h4>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="Say">
+                    <button type="submit" class="btn ">Get free Consultancy</button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid mt-3 pro ">
+        <div class=" row  ">
+
+            <div class="col-sm-7">
+                <div class="lack">
+                    <h1>Stay Strong ,Stay Balanced,<br>Live Your Best Life! </h1>
+                    <p class="home3">Many desktop publish packages web pages editors now use model<br>text search for
+                        sites their
+                        infancy.</p>
+                </div>
+
+                <div class="try">
+                    <h6 class="home">Bend Your Mind ,Inspire Yourself.</h6>
+                    <p class="home1">Many desktop publish packages web page editors<br>now use model for sites their
+                        infancy.</p>
+                </div>
+                <div class="try">
+                    <h6 class="home">Different Kind of Style</h6>
+                    <p class="home1">Many desktop publish packages web page editors<br>now use model for sites their
+                        infancy.</p>
+                </div>
+                <div class="try">
+                    <h6 class="home">Lighten Up</h6>
+                    <p class="home1">Many desktop publish packages web page editors<br>now use model for sites their
+                        infancy.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-5">
+                <div class="search">
+                    <img src="photo/d.jpg">
+                </div>
+
+                <div class="script">
+                    <img src="photo/c.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-1">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="desktop">
+                    <h1 class="heading">What Makes Us Different</h1>
+                    <p class="heading1">Many desktop publish packages web page editors now use model text<br>search for
+                        sites their infancy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid section">
+        <div class="row ">
+            <div class="col-sm-4 ">
+                <div class="rub">
+                    <div class="can">
+                        <i class="fa-brands fa-nutritionix "></i>
+                        <h6>Right Nutrition</h6>
+                        <p class="open">Many desktop pulish packages web<br> page editors now text search.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 ">
+                <div class="rub">
+                    <div class="can">
+                        <i class="fa-solid fa-person "></i>
+                        <h6>Expert instructor</h6>
+                        <p class="open">Many desktop pulish packages web <br>page editors now text search.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 ">
+                <div class="rub">
+                    <div class="can">
+                        <i class="fa-solid fa-heart-pulse "></i>
+                        <h6>Mental peace & health</h6>
+                        <p class="open">Many desktop pulish packages web <br>page editors now text search.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="for">
+                    <h1 class="means">Some of Recent Gallery</h1>
+                    <p class="means1">Many desktop publish packages web page editors now use model text<br>search for
+                        sites their infancy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="shift">
+                    <img src="photo/y.jpg">
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="shift">
+                    <img src="photo/y1.jpg">
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="shift">
+                    <img src="photo/y2.jpg">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="lock">
+                    <img src="photo/z.jpg">
+
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="lock">
+                    <img src="photo/z1.jpg">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="all">
+                    <button type="submit" class="btn ">View more images</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="just">
+                    <h1 class="basic">Popular Yoga Service</h1>
+                    <p class="basic1">Many desktop publish packages web page editors now use model text<br>search for
+                        sites their infancy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid get">
+        <div class="row">
+            <div class="col-sm-4">
+
+                <div class="count">
+                    <img src="photo/x.jpg">
+                    <div class="count1">
+                        <h6 style="color: rgb(238, 44, 44);">Meditation</h6>
+                        <h5>200 Hour YTT Course</h5>
+                        <i class="fa-regular fa-calendar-days"></i> <b class="boxdate">24.07.2022</b><span><i
+                                class="fa-regular fa-clock fax"></i><b>01:00AM-02:00PM</b></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="count">
+                    <img src="photo/x1.jpg">
+                    <div class="count1">
+                        <h6 style="color: rgb(238, 44, 44);">Power Yoga</h6>
+                        <h5>Earth Power Yoga Course</h5>
+                        <i class="fa-regular fa-calendar-days"></i><b class="boxdate">24.07.2022</b><span><i
+                                class="fa-regular fa-clock fax"></i><b>01:00AM-02:00PM</b></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="count">
+                    <img src="photo/x2.jpg">
+                    <div class="count1">
+                        <h6 style="color: rgb(238, 44, 44);">Karma Yoga</h6>
+                        <h5>Smart Flow Yoga Course</h5>
+                        <i class="fa-regular fa-calendar-days"></i> <b class="boxdate">24.07.2022</b><span><i
+                                class="fa-regular fa-clock fax"></i><b>01:00AM-02:00PM</b></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="save">
+                    <h1 class="link">Stay Motivated,Read The<br>Weekly Blog Articles</h1>
+                    <p class="link1">Many desktop publish packages web page editors now use model text<br>search for
+                        sites their infancy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-sm-4">
+
+                <div class="total">
+                    <img src="photo/e.jpg">
+                    <div class="total1">
+                        <i class="fa-regular fa-calendar-days"></i> <b class="boxdate">August 17 2022</b><span><i
+                                class="fa-regular fa-address-book"></i><b>Markus</b></span>
+                        <h6>Helping You Find Peace with<br>Yourself</h6>
+                        <h6>Read More</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="total">
+                    <img src="photo/e2.jpg">
+                    <div class="total1">
+                        <i class="fa-regular fa-calendar-days"></i> <b class="boxdate">August 17 2022</b><span><i
+                                class="fa-regular fa-address-book"></i><b>Markus</b></span>
+                        <h6>Add Yoga Retain THe Beauty<br>of Body & Mind</h6>
+                        <h6>Read More</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="total">
+                    <img src="photo/e1.jpg">
+                    <div class="total1">
+                        <i class="fa-regular fa-calendar-days"></i> <b class="boxdate">August 17 2022</b><span><i
+                                class="fa-regular fa-address-book"></i><b>Markus</b></span>
+                        <h6>Transforming Your Body,<br>Transforming Energy</h6>
+                        <h6>Read More</h6>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="change">
+                    <h1 class="data">What Say Our Client's</h1>
+                    <p class="data1">Many desktop publish packages web page editors now use model text<br>search for
+                        sites their infancy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="disc">
+                    <i class="fa-solid fa-quote-right"></i>
+                </div>
+                <div class="task">
+                    <img src="photo/l.png">
+                </div>
+                <h3 class="memory">"Natural,Healthy and Professional"</h3>
+                <p class="memory1">"interdum ultricies mauris ac at.Fringilla egestas dui enim ut nunc morbi metus
+                    mi<br>adipiscing.Est netus lacus arcu,fames neque venenatis cursus nibhuasusn ornare.<br>Fermentum
+                    egestas quam ornare condimentum."</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid proper">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="step">
+                    <img src="photo/pro.jpeg">
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="step1">
+                    <img src="photo/pro1.png">
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="step2">
+                    <img src="photo/pro2.jpeg">
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="step3">
+                    <img src="photo/pro3.png">
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="step4">
+                    <img src="photo/pro4.jpeg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="set">
+                    <h1 class="collect">Get Every Single Updates</h1>
+                    <p class="collect1">Many desktop publish packages web page editors now use model text<br>search for
+                        sites their infancy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="newsletter">
+                    <div class="page">
+                        <input type="text" placeholder="Enter your email">
+                    </div>
+                    <div class="insert">
+                        <button type="submit" class="btn">Subscribe Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row footer-sct">
+            <div class="col-sm-6">
+                <div class="box">
+                    <img src="photo/m.jpg"><span>
+                        <h1 class="del">RELXO</h1>
+                    </span>
+                </div>
+                <div class="easy">
+                    <h6 class="begin">Behind the word mountains,far<br>from countries vokalia.</h6>
+                    <li><i class="fa-solid fa-location-dot symbol"></i><b class="tab">1810 King street,New York</b></li>
+                    <li><i class="fa-solid fa-phone symbol"></i> <b class="tab">+8802-3849-4890</b></li>
+                    <li> <i class="fa-regular fa-envelope symbol"></i><b class="tab">Contact@gmail.com</b></li>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <h3 class="from">About</h3>
+                <div class="pause">
+                    <ul>
+                        <li class="reach">About</li>
+                        <li class="reach">Social Media</li>
+                        <li class="reach">Team Members</li>
+                        <li class="reach">Careers</li>
+                        <li class="reach">Contact Us</li>
+                    </ul>
+
+
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <h3 class="from">Explore</h3>
+                <div class="pause">
+                    <ul>
+                        <li class="reach">Blog & News</li>
+                        <li class="reach">Yoga Gallery</li>
+                        <li class="reach">Privacy Policy</li>
+                        <li class="reach">About Us</li>
+                        <li class="reach">Contact Us</li>
+                    </ul>
+
+
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <h3 class="from">Support</h3>
+                <div class="pause">
+                    <ul>
+                        <li class="reach">Documentation</li>
+                        <li class="reach">FAQ question</li>
+                        <li class="reach">Privacy Policy</li>
+                        <li class="reach">Sitemap</li>
+                        <li class="reach">Contact Us</li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid free">
+        <div class="row">
+            <div class="col-sm-12">
+                <span> <i class="fa-brands fa-facebook safe"></i><i class="fa-brands fa-twitter safe"></i><i
+                        class="fa-brands fa-instagram safe"></i><i class="fa-solid fa-inbox safe"></i></span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

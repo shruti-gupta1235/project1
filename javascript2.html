@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+</body>
+<script>
+  // https://www.programiz.com/javascript/hoisting
+  
+  let arr= ['HTML',"css","javscript", "C"];
+  document.write(arr, "<br/>"); // [object, object, object]
+  document.write(arr.length,  "<br/>");
+
+  let arr1 =[2,3,5];
+  let arr2 =[6,7];
+  let arrMerge=arr1.concat(arr2);
+  document.write(arrMerge,  "<br/>");
+  let arr3 =[2,3,5];
+  let arrJoin=arr3.join("nnn");
+  document.write(arrJoin,  "<br/>");
+  const fruits = ["Banana", "Orange", "Apple", "Mango"];
+  delete fruits[0];
+  document.write(fruits);
+</script>
+</html>

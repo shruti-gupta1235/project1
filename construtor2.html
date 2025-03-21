@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+ <p></p>
+</body>
+<script>
+
+    
+     class flowers {
+        constructor(name, color,found){
+            this.name = name;
+            this.color = color;
+            this.found = found;
+        }
+
+        greet(){
+            return `Hello This name is ${this.name} , color is ${this.color} and found in ${this.found}<br>`;
+        }
+     }
+
+     let flowersObj = new flowers("Lotus","blue" ,"America");
+     document.write(flowersObj.greet());
+
+     class Employee extends flowers{
+        constructor(name, color,found, fragrance,job){
+            super(name, color,found);
+            this.fragrance = fragrance;
+            this.job=job;
+        }
+
+        work(){
+            return `This name is ${this.name} and It's frgrance is ${this.fragrance} and I am working in ${this.job} shop.<br>`;
+        }
+     }
+
+     let smallObj = new Employee("Rose","Red","america" ,"Bellavita","flower seller");
+      document.write(smallObj.greet());
+      document.write(smallObj.work());
+</script>
+</html>
+

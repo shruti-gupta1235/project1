@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+      <h2>Javascript project</h2>
+      <p id="demo"></p>
+    <script>
+
+
+const numbers = [64, 79, 186, 925, 129];
+let first = numbers.find(myFunction);
+
+document.getElementById("demo").innerHTML = "First number over 920 is " + first;
+
+function myFunction(value, index, array) {
+  return value > 920;
+}
+</script>
+
+</body>
+
+</html>

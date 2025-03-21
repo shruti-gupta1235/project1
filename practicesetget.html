@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+ <p></p>
+</body>
+<script>
+
+     class Login {
+        constructor(name) {
+            this.name = name;
+        }
+
+        // Getter method
+        get langName() {
+            return this.name;
+        }
+
+        // Setter method
+        set langName(x) {
+            this.name = x;
+        }
+
+        hello(){
+            document.write(`Hello ${this.name}`)
+        }
+}
+
+let obj = new Login('ssdfs');
+document.write(obj.name, "<br>"); 
+
+obj.langName = 'fffff';
+document.write(obj.name);
+
+</script>
+</html>

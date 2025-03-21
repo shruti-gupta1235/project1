@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <script type="text/javascript">
+        
+        let arrList = [];
+        function submitSignUpForm(event){
+            event.preventDefault();
+           
+            let UserId = document.getElementById("UserIdInput").value;
+            let nameInput = document.getElementById("nameInput").value;   
+            let CountryInput = document.getElementById("CountryInput").value;
+            let emailInput = document.getElementById("emailInput").value;
+            let passwordInput = document.getElementById("passwordInput").value;
+            
+            // console.log(event.target['UserId'].value);
+            // console.log(event.target['password'].value);
+            console.log(UserId);
+            console.log(nameInput);
+            console.log(CountryInput);
+            console.log(emailInput);
+            console.log(passwordInput);
+            
+            arrList.push({"UserId":UserIdInput, "password":passwordInput});
+            console.log(arrList);
+            document.getElementById("UserIdInput").value =null;
+            document.getElementById("nameInput").value = null;
+            document.getElementById("CountryInput").value =null;
+            document.getElementById("emailInput").value = null;
+            document.getElementById("passwordInput").value =null;
+            
+      
+        }
+    </script>
+<body>
+
+<h1>Function javascript</h1>
+
+<form>
+  
+    <input type="text" name="userid" placeholder="UserId" id="UserIdInput">
+    <input type="text" name="name" placeholder="Name" id="nameInput">
+    <input type="text" name="Country" placeholder="Country" id="CountryInput">
+    <input type="text" name="email" placeholder="Email" id="emailInput">
+    <input type="password" name="password" placeholder="password" id="passwordInput">
+  
+    <input type="submit" value="Sign Up" onclick="submitSignUpForm(event)">
+</form>
+
+</body>
+
+</html>
+

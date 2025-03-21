@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .do {
+            background-color: rgb(4, 50, 93);
+            height: 80px;
+        }
+
+        .sct-header img {
+            height: 80px;
+        }
+
+        .so {
+            height: 25px;
+            color: white;
+            margin-top: 30px;
+        }
+
+        .nav-custom-cl {
+            float: right;
+            margin-top: 10px;
+            margin-bottom: 80px;
+
+        }
+
+        .nav-custom-cl ul li {
+            margin-left: 50px;
+            /* color: antiquewhite; */
+        }
+
+        .nav-custom-cl ul a {
+            font-size: 18px;
+            color: white !important;
+
+        }
+
+        .key button {
+            border: 2px solid white;
+            border-radius: 15px;
+            color: white;
+            background-color: rgb(4, 50, 93);
+            margin: 0 auto;
+            margin-top: 20px;
+            width: 180px;
+        }
+
+        .try button {
+            border: 2px solid white;
+            border-radius: 15px;
+            color: white;
+            background-color: rgb(225, 151, 15);
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-right: 20px;
+            width: 180px;
+        }
+
+        .carousel-inner img {
+            height: 500px;
+            object-fit: contain;
+        }
+
+        .carousel-item {
+            position: relative;
+        }
+
+        .self {
+            position: absolute;
+            top: 110px;
+        }
+
+        .main button {
+            border: 2px solid white;
+            border-radius: 15px;
+            color: white;
+            background-color: rgb(225, 151, 15);
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-left: 20px;
+            width: 180px;
+        }
+
+        .para {
+            color: white;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 40px;
+        }
+
+        .can {
+            color: white;
+            margin-left: 30px;
+        }
+
+        .sct1 {
+            border: 2px solid rgb(215, 215, 22);
+            border-radius: 20px;
+            background-color: rgb(215, 215, 22);
+            color: black;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 20px;
+        }
+
+        .sct2 {
+            border: 2px solid rgb(10, 137, 10);
+            border-radius: 20px;
+            background-color: rgb(10, 137, 10);
+            color: white;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 20px;
+        }
+
+        .sct3 {
+            border: 2px solid rgb(38, 173, 235);
+            border-radius: 20px;
+            background-color: rgb(13, 115, 163);
+            color: white;
+            padding-top: 5px;
+            padding-bottom: 25px;
+            padding-left: 20px;
+        }
+
+        .sct4 {
+            border: 2px solid rgb(238, 19, 19);
+            border-radius: 20px;
+            background-color: rgb(238, 19, 19);
+            color: white;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 20px;
+        }
+
+        h3 {
+            margin-bottom: 25px !important;
+        }
+
+        .heading {
+            margin-top: 40px;
+            color: black;
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 80px;
+            margin-bottom: 40px;
+        }
+        .partimg{
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid mt-3 do ">
+        <div class=" row header-sct">
+            <div class="col-sm-1">
+                <div class="sct-header">
+                    <img src="photo/g.png">
+                </div>
+
+            </div>
+            <div class="col-sm-6">
+                <nav class="navbar navbar-expand-sm navbar-light nav-custom-cl">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">PROGRAMS</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">CAREER SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">ADVANTAGES</a>
+                        </li>
+
+
+                </nav>
+            </div>
+            <div class="col-sm-1">
+                <i class="fa-solid fa-magnifying-glass so"></i>
+            </div>
+            <div class="col-sm-2">
+                <div class="key">
+                    <button type="submit" class="btn ">STUDENT LOGIN</button>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="try">
+                    <button type="submit" class="btn">ENROLL NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 mt-1">
+            <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="photo/j.jpg" alt="Los Angeles" class="d-block part"
+                            style="width:100%;height: 450px;object-fit: cover;">
+                        <div class="self">
+                            <h1 class="can">Build the right skills<br> and shape your future</h1>
+                            <h5 class="para">#inspiring Dreams</h5>
+                            <div class="main">
+                                <button type="submit" class="btn">ENROLL NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photo/h.jpg" alt="Chicago" class="d-block part"
+                            style="width:100%;height: 450px;object-fit: cover;">
+                        <div class="self">
+                            <h1 class="can">Pursue Online Degree<br>Programmes at your<br>own schedule</h1>
+                            <h5 class="para">#inspiring Dreams</h5>
+                            <div class="main">
+                                <button type="submit" class="btn">ENROLL NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photo/k.jpg" alt="New York" class="d-block part"
+                            style="width:100%;height: 450px;object-fit: cover;">
+                        <div class="self">
+                            <h1 class="can">Career-oriented<br>Online Degrees <br> with Amity Online</h1>
+                            <h5 class="para">#inspiring Dreams</h5>
+                            <div class="main">
+                                <button type="submit" class="btn">ENROLL NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container so">
+        <div class="row ">
+            <div class="col-sm-3 ">
+                <div class="sct1">
+                    <h3> 30+</h3>
+                    <h6>years of<br> Excellence</h6>
+                </div>
+            </div>
+
+            <div class="col-sm-3 ">
+                <div class="sct2">
+                    <h3>500+</h3>
+                    <h6>Hiring<br>Partners</h6>
+                </div>
+            </div>
+            <div class="col-sm-3 ">
+                <div class="sct3">
+                    <h3>82k+</h3>
+                    <h6>Learners</h6>
+                </div>
+            </div>
+            <div class="col-sm-3 ">
+                <div class="sct4">
+
+                    <h3>60+</h3>
+                    <h6>Programs and<br>Specializations</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="heading">
+            <h2>Our Accreditations & Recognitions </h2>
+            <hr>
+        </div>
+        <h6>Right Nutrition</h6>
+        <p>Many desktop pulish packages web<br> page editors now text search.</p>
+    </div>
+    </div>
+    
+</body>
+
+</html>

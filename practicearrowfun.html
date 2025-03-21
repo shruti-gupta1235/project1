@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1>JavaScript Functions</h1>
+    <h2>The Arrow Function</h2>
+
+    <p>This example shows the syntax of an Arrow Function, and how to use it.</p>
+
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+
+
+    <script>
+        var myFunction = (a, b) => a + b;
+        var myFunction1 = (a, b) => a - b;
+        var myFunction2 = (a, b) => a * b;
+        var myFunction3 = (a, b) => a / b;
+        var myFunction4 = (a, b) => a % b;
+        var myFunction5 = (a, b) => a > b;
+         document.write(myFunction(4,7));
+         document.getElementById("demo").innerHTML = myFunction(9, 5);
+        document.getElementById("demo1").innerHTML = myFunction1(9, 5);
+        document.getElementById("demo2").innerHTML = myFunction2(9, 5);
+        document.getElementById("demo3").innerHTML = myFunction3(9, 5);
+        document.getElementById("demo4").innerHTML = myFunction4(9, 5);
+        document.getElementById("demo5").innerHTML = myFunction5(9, 5);
+    </script>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        var myFunction=(a,b)=>(a+b);
+        document.getElementById('demo').innerHTML=myFunction(8,7)
+    </script>
+   
+</body>
+
+
+</html>
